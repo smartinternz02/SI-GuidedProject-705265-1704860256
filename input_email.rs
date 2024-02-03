@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>button_Log in</name>
+   <name>input_email</name>
    <tag></tag>
-   <elementGuidId>159e718b-656f-4ba4-b478-a9ec3016c3e8</elementGuidId>
+   <elementGuidId>ef3b4809-89b8-4bb6-acfc-1680adc91aa2</elementGuidId>
    <selectorCollection>
       <entry>
          <key>CSS</key>
-         <value>#u_0_5_Yj</value>
+         <value>#email</value>
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>//button[@id='u_0_5_Yj']</value>
+         <value>//input[@id='email']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -21,103 +21,111 @@
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
-      <value>button</value>
-      <webElementGuid>1348a21a-4f98-4135-9f50-cb8cb39671de</webElementGuid>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>value</name>
-      <type>Main</type>
-      <value>1</value>
-      <webElementGuid>97d70ca3-176f-46c1-a5de-07fecb708bee</webElementGuid>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>class</name>
-      <type>Main</type>
-      <value>_42ft _4jy0 _6lth _4jy6 _4jy1 selected _51sy</value>
-      <webElementGuid>202cda70-2b5a-4c32-b021-66a1be6b65d6</webElementGuid>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>true</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>name</name>
-      <type>Main</type>
-      <value>login</value>
-      <webElementGuid>604c2d58-5b62-4339-89ed-c8301acc84ed</webElementGuid>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>data-testid</name>
-      <type>Main</type>
-      <value>royal_login_button</value>
-      <webElementGuid>791063c5-a972-4387-b8f2-509d0bff4cc6</webElementGuid>
+      <value>input</value>
+      <webElementGuid>ede6aeee-cf26-4c60-967e-0e6a174fdef0</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>type</name>
       <type>Main</type>
-      <value>submit</value>
-      <webElementGuid>cd7e6053-8a4a-442d-9d5d-e5f3a7eb3ed7</webElementGuid>
+      <value>text</value>
+      <webElementGuid>60da70b7-f571-4da8-9e57-8681569ccafa</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>inputtext _55r1 _6luy</value>
+      <webElementGuid>7ce3c999-5dd5-4796-99be-4b863de8cc0e</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>name</name>
+      <type>Main</type>
+      <value>email</value>
+      <webElementGuid>2605aba9-5800-4a80-bcba-6d03f89a45db</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>id</name>
       <type>Main</type>
-      <value>u_0_5_Yj</value>
-      <webElementGuid>bd99ac0c-191b-4391-9a58-554a26861cfb</webElementGuid>
+      <value>email</value>
+      <webElementGuid>ed5e70cc-e468-4907-8760-290c8343cf02</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>data-testid</name>
+      <type>Main</type>
+      <value>royal_email</value>
+      <webElementGuid>c7bb5bac-0e7d-4b9b-bf9c-14dd9103943a</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>text</name>
+      <name>placeholder</name>
       <type>Main</type>
-      <value>Log in</value>
-      <webElementGuid>b5f1c735-bb3a-413b-ae7d-ec5774ee2427</webElementGuid>
+      <value>Email address or phone number</value>
+      <webElementGuid>87d4f64e-8c93-4a50-88c3-eb7d0f46fa80</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>autofocus</name>
+      <type>Main</type>
+      <value>1</value>
+      <webElementGuid>868fe107-8c03-4efd-9b61-ecb54d190e4e</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>aria-label</name>
+      <type>Main</type>
+      <value>Email address or phone number</value>
+      <webElementGuid>4de682de-0540-4e3c-bfd6-24f21e8c6b23</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;u_0_5_Yj&quot;)</value>
-      <webElementGuid>c060a196-8190-4bc4-897f-be9fa7fbc804</webElementGuid>
+      <value>id(&quot;email&quot;)</value>
+      <webElementGuid>0d164c50-cb50-4ae7-a235-5ce422069401</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:attributes</name>
       <type>Main</type>
-      <value>//button[@id='u_0_5_Yj']</value>
-      <webElementGuid>d32ab526-3973-4047-b0bd-fe236514083f</webElementGuid>
+      <value>//input[@id='email']</value>
+      <webElementGuid>2b626fc9-0441-4697-8bdd-c5bf3c4739f2</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//form[@id='u_0_2_8Q']/div[2]/button</value>
-      <webElementGuid>5f2e2945-d239-4332-aa88-37b3bccebe9e</webElementGuid>
+      <value>//form[@id='u_0_2_8Q']/div/div/input</value>
+      <webElementGuid>d9fa975d-49a5-44f5-8d93-0224be888a44</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//button</value>
-      <webElementGuid>85ced015-a95b-4ee2-a48f-0f5857aae1bb</webElementGuid>
+      <value>//div/input</value>
+      <webElementGuid>b01c0320-f57c-46bc-a3c1-0d8998a09370</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:customAttributes</name>
       <type>Main</type>
-      <value>//button[@name = 'login' and @type = 'submit' and @id = 'u_0_5_Yj' and (text() = 'Log in' or . = 'Log in')]</value>
-      <webElementGuid>305a582f-c60c-40ad-b24e-c9e97461c24b</webElementGuid>
+      <value>//input[@type = 'text' and @name = 'email' and @id = 'email' and @placeholder = 'Email address or phone number']</value>
+      <webElementGuid>0ca8c183-d6d8-4e2e-81fc-70b998c23164</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>
