@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DataFileEntity>
+   <description></description>
+   <name>Facebook_Test Data_internal_excel</name>
+   <tag></tag>
+   <connectionProperties/>
+   <containsHeaders>true</containsHeaders>
+   <csvSeperator></csvSeperator>
+   <dataFileGUID>d8491331-16ff-4be4-922e-d37e0e70dfdd</dataFileGUID>
+   <dataSourceUrl></dataSourceUrl>
+   <driver>InternalData</driver>
+   <data>ch.anil9b%40gmail.com A2%40nil43</data>
+   <data>ch.anil9cc%40gmail.com A2%40facebook</data>
+   <data>9505964687 A2%40facebook</data>
+   <internalDataColumns>
+      <columnIndex>0</columnIndex>
+      <name>email</name>
+      <size>3</size>
+   </internalDataColumns>
+   <internalDataColumns>
+      <columnIndex>1</columnIndex>
+      <name>pass</name>
+      <size>3</size>
+   </internalDataColumns>
+   <isInternalPath>false</isInternalPath>
+   <query></query>
+   <secureUserAccount>false</secureUserAccount>
+   <sheetName></sheetName>
+   <usingGlobalDBSetting>false</usingGlobalDBSetting>
+</DataFileEntity>
