@@ -1,0 +1,11 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+TC_Facebook_login_001_TS,Chrome 120.0.0.0,,,28-01-2024 16:31:17,28-01-2024 16:32:05,47.631s,PASSED
+,,,,,,,
+Test Cases/TC_Facebook_login_001,Chrome 120.0.0.0,,,28-01-2024 16:31:17,28-01-2024 16:32:05,47.406s,PASSED
+"openBrowser("""")",Chrome 120.0.0.0,,,28-01-2024 16:31:18,28-01-2024 16:31:22,4.704s,PASSED
+"navigateToUrl(""www.facebook.com"")",Chrome 120.0.0.0,,,28-01-2024 16:31:22,28-01-2024 16:31:25,2.166s,PASSED
+"setText(findTestObject(""TC_Facebook_login_001_OR/Page_Facebook  log in or sign up/input_Facebook helps you connect and share with the people in your life_email""), ""ch.anil9cc@gmail.com"")",Chrome 120.0.0.0,,,28-01-2024 16:31:25,28-01-2024 16:31:26,0.972s,PASSED
+"setText(findTestObject(""TC_Facebook_login_001_OR/Page_Facebook  log in or sign up/input_Facebook helps you connect and share with the people in your life_pass""), ""A2@nilfb"")",Chrome 120.0.0.0,,,28-01-2024 16:31:26,28-01-2024 16:31:27,1.097s,PASSED
+"click(findTestObject(""TC_Facebook_login_001_OR/Page_Facebook  log in or sign up/button_Log in""))",Chrome 120.0.0.0,,,28-01-2024 16:31:27,28-01-2024 16:31:59,31.866s,PASSED
+maximizeWindow(),Chrome 120.0.0.0,,,28-01-2024 16:31:59,28-01-2024 16:32:03,4.960s,PASSED
+closeBrowser(),Chrome 120.0.0.0,,,28-01-2024 16:32:03,28-01-2024 16:32:05,1.336s,PASSED

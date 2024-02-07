@@ -1,0 +1,14 @@
+{
+  "brokenTestObjects": [
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/TC_Facebook_login_001_OR/Page_Facebook  log in or sign up/button_Log in",
+      "brokenLocator": "//button[@id\u003d\u0027u_0_5_bw\u0027]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//button",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/20240128_171216/TC_Facebook_login_001_TS/20240128_171217/Object Repository/TC_Facebook_login_001_OR/Page_Facebook  log in or sign up/button_Log in_position.png"
+    }
+  ]
+}

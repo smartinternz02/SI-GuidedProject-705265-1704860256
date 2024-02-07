@@ -1,0 +1,14 @@
+{
+  "brokenTestObjects": [
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/TC_buttons_002_OR/Page_Facebook  log in or sign up/a_Create new account",
+      "brokenLocator": "//a[@id\u003d\u0027u_0_0_VI\u0027]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//a[contains(text(),\u0027Create new account\u0027)]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/20240201_000128/Buttons_test suite/TC_dropdownValidation_002_Test Suite/20240201_000128/Object Repository/TC_buttons_002_OR/Page_Facebook  log in or sign up/a_Create new account_link.png"
+    }
+  ]
+}

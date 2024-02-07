@@ -1,0 +1,7 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+TC_Facebook_login_DDT_test suite,Chrome 121.0.0.0,,,30-01-2024 15:53:59,30-01-2024 15:54:17,18.596s,ERROR
+,,,,,,,
+Test Cases/Tc_facebook_DDT/TC_Facebook_login,Chrome 121.0.0.0,,,30-01-2024 15:54:14,30-01-2024 15:54:17,2.894s,ERROR
+"openBrowser("""")",Chrome 121.0.0.0,,,30-01-2024 15:54:14,30-01-2024 15:54:15,1.109s,PASSED
+"navigateToUrl(""www.facebook.com"")",Chrome 121.0.0.0,,,30-01-2024 15:54:15,30-01-2024 15:54:17,1.711s,PASSED
+"setText(findTestObject(""TC_Facebook_login_001_OR/Page_Facebook  log in or sign up/input_Facebook helps you connect and share with the people in your life_email""), email)",Chrome 121.0.0.0,,,30-01-2024 15:54:17,30-01-2024 15:54:17,0.044s,ERROR

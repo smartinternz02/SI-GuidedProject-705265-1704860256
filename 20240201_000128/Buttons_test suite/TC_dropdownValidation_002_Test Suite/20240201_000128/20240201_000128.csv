@@ -1,0 +1,11 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+TC_dropdownValidation_002_Test Suite,Chrome 121.0.0.0,,,01-02-2024 00:01:35,01-02-2024 00:02:22,47.357s,PASSED
+,,,,,,,
+Test Cases/Buttons/TC_DropdownValidation_002,Chrome 121.0.0.0,,,01-02-2024 00:01:35,01-02-2024 00:02:22,47.153s,PASSED
+"openBrowser("""")",Chrome 121.0.0.0,,,01-02-2024 00:01:35,01-02-2024 00:01:40,4.627s,PASSED
+"navigateToUrl(""https://www.facebook.com/"")",Chrome 121.0.0.0,,,01-02-2024 00:01:40,01-02-2024 00:01:42,2.031s,PASSED
+"click(findTestObject(""Object Repository/TC_buttons_002_OR/Page_Facebook  log in or sign up/a_Create new account""))",Chrome 121.0.0.0,,,01-02-2024 00:01:42,01-02-2024 00:02:14,31.665s,PASSED
+"selectOptionByLabel(findTestObject(""Object Repository/TC_buttons_002_OR/Page_Facebook  log in or sign up/select_123456789101112131415161718192021222_566da4""), day, true)",Chrome 121.0.0.0,,,01-02-2024 00:02:14,01-02-2024 00:02:19,5.674s,PASSED
+"selectOptionByValue(findTestObject(""TC_Facebook_registartion_002_OR/Page_Facebook  log in or sign up/select_JanFebMarAprMayJunJulAugSepOctNovDec""), month, true)",Chrome 121.0.0.0,,,01-02-2024 00:02:19,01-02-2024 00:02:20,1.200s,PASSED
+"selectOptionByIndex(findTestObject(""Object Repository/TC_buttons_002_OR/Page_Facebook  log in or sign up/select_202420232022202120202019201820172016_7237a8""), year, STOP_ON_FAILURE)",Chrome 121.0.0.0,,,01-02-2024 00:02:20,01-02-2024 00:02:22,1.366s,PASSED
+closeBrowser(),Chrome 121.0.0.0,,,01-02-2024 00:02:22,01-02-2024 00:02:22,0.247s,PASSED

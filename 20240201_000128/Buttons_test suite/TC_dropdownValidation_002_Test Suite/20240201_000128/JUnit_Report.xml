@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="TC_dropdownValidation_002_Test Suite" time="47.357" tests="1" failures="0" errors="0">
+   <testsuite name="TC_dropdownValidation_002_Test Suite" tests="1" failures="0" errors="0" time="47.357" skipped="0" timestamp="01-02-2024T00:01:35" hostname="ANILKUMAR - DESKTOP-FOKPJIU" id="Test Suites/Buttons_test suite/TC_dropdownValidation_002_Test Suite">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\ANILKUMAR\\Katalon Studio\\Facebook Application Testing\\Reports\\20240201_000128\\Buttons_test suite\\TC_dropdownValidation_002_Test Suite\\20240201_000128"/>
+         <property name="logFiles" value="C:\\Users\\ANILKUMAR\\Katalon Studio\\Facebook Application Testing\\Reports\\20240201_000128\\Buttons_test suite\\TC_dropdownValidation_002_Test Suite\\20240201_000128\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="ANILKUMAR - DESKTOP-FOKPJIU"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="9.1.0.212"/>
+         <property name="browser" value="Chrome 121.0.0.0"/>
+         <property name="hostAddress" value="192.168.1.100"/>
+         <property name="sessionId" value="21b7f2ed52e551a6f3e933a4a381c842"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/Buttons/TC_DropdownValidation_002" time="47.153" classname="Test Cases/Buttons/TC_DropdownValidation_002" status="PASSED">
+         <system-out><![CDATA[01-02-2024T00:01:35 - [TEST_CASE][PASSED] - Test Cases/Buttons/TC_DropdownValidation_002: Test Cases/Buttons/TC_DropdownValidation_002
+
+01-02-2024T00:01:35 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+01-02-2024T00:01:36 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+01-02-2024T00:01:36 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+01-02-2024T00:01:40 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+01-02-2024T00:01:40 - [TEST_STEP][PASSED] - navigateToUrl("https://www.facebook.com/"): Navigate to 'https://www.facebook.com/' successfully
+
+01-02-2024T00:01:42 - [MESSAGE][PASSED] - Navigate to 'https://www.facebook.com/' successfully
+
+01-02-2024T00:01:42 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/TC_buttons_002_OR/Page_Facebook  log in or sign up/a_Create new account")): Object: 'Object Repository/TC_buttons_002_OR/Page_Facebook  log in or sign up/a_Create new account' is clicked on
+
+01-02-2024T00:02:13 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //a[@id='u_0_0_VI']'. Please recheck the objects properties to make sure the desired element is located. 
+
+01-02-2024T00:02:13 - [MESSAGE][WARNING] - [SELF-HEALING] Failed to find element with id 'Object Repository/TC_buttons_002_OR/Page_Facebook  log in or sign up/a_Create new account'. Try using Self-healing.
+
+01-02-2024T00:02:13 - [MESSAGE][WARNING] - [SELF-HEALING] The current locator of test object 'Object Repository/TC_buttons_002_OR/Page_Facebook  log in or sign up/a_Create new account' was broken. Propose an alternative one: '//a[contains(text(),'Create new account')]'.
+
+01-02-2024T00:02:14 - [MESSAGE][PASSED] - Object: 'Object Repository/TC_buttons_002_OR/Page_Facebook  log in or sign up/a_Create new account' is clicked on
+
+01-02-2024T00:02:14 - [TEST_STEP][PASSED] - selectOptionByLabel(findTestObject("Object Repository/TC_buttons_002_OR/Page_Facebook  log in or sign up/select_123456789101112131415161718192021222_566da4"), day, true): All options with label '5' are selected in object 'Object Repository/TC_buttons_002_OR/Page_Facebook  log in or sign up/select_123456789101112131415161718192021222_566da4'  using regular expression
+
+01-02-2024T00:02:19 - [MESSAGE][PASSED] - All options with label '5' are selected in object 'Object Repository/TC_buttons_002_OR/Page_Facebook  log in or sign up/select_123456789101112131415161718192021222_566da4'  using regular expression
+
+01-02-2024T00:02:19 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("TC_Facebook_registartion_002_OR/Page_Facebook  log in or sign up/select_JanFebMarAprMayJunJulAugSepOctNovDec"), month, true): All options with value '1' are selected in object 'Object Repository/TC_Facebook_registartion_002_OR/Page_Facebook  log in or sign up/select_JanFebMarAprMayJunJulAugSepOctNovDec'  using regular expression
+
+01-02-2024T00:02:20 - [MESSAGE][PASSED] - All options with value '1' are selected in object 'Object Repository/TC_Facebook_registartion_002_OR/Page_Facebook  log in or sign up/select_JanFebMarAprMayJunJulAugSepOctNovDec'  using regular expression
+
+01-02-2024T00:02:20 - [TEST_STEP][PASSED] - selectOptionByIndex(findTestObject("Object Repository/TC_buttons_002_OR/Page_Facebook  log in or sign up/select_202420232022202120202019201820172016_7237a8"), year, STOP_ON_FAILURE): All options with index in [20] are selected on object 'Object Repository/TC_buttons_002_OR/Page_Facebook  log in or sign up/select_202420232022202120202019201820172016_7237a8'
+
+01-02-2024T00:02:22 - [MESSAGE][PASSED] - All options with index in [20] are selected on object 'Object Repository/TC_buttons_002_OR/Page_Facebook  log in or sign up/select_202420232022202120202019201820172016_7237a8'
+
+01-02-2024T00:02:22 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+01-02-2024T00:02:22 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[01-02-2024T00:01:35 - [TEST_SUITE][PASSED] - TC_dropdownValidation_002_Test Suite: Test Cases/Buttons/TC_DropdownValidation_002]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

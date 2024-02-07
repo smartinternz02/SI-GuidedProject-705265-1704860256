@@ -1,0 +1,10 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+TC_Facebook_login_002_TS,Chrome 120.0.0.0,,,28-01-2024 16:37:05,28-01-2024 16:37:45,40.126s,PASSED
+,,,,,,,
+Test Cases/TC_Facebook_login_002,Chrome 120.0.0.0,,,28-01-2024 16:37:05,28-01-2024 16:37:45,39.932s,PASSED
+"openBrowser("""")",Chrome 120.0.0.0,,,28-01-2024 16:37:05,28-01-2024 16:37:09,4.116s,PASSED
+"navigateToUrl(""https://www.facebook.com/"")",Chrome 120.0.0.0,,,28-01-2024 16:37:09,28-01-2024 16:37:11,2.010s,PASSED
+"setText(findTestObject(""Object Repository/TC_Facebook_login_002_OR/Page_Facebook  log in or sign up/input_email""), ""ch.anil9cc@gmail.com"")",Chrome 120.0.0.0,,,28-01-2024 16:37:11,28-01-2024 16:37:12,0.960s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/TC_Facebook_login_002_OR/Page_Facebook  log in or sign up/input_pass""), ""61i/wkBUVQsq5Z5s4Ux7EA=="")",Chrome 120.0.0.0,,,28-01-2024 16:37:12,28-01-2024 16:37:13,0.680s,PASSED
+"click(findTestObject(""Object Repository/TC_Facebook_login_002_OR/Page_Facebook  log in or sign up/button_Log in""))",Chrome 120.0.0.0,,,28-01-2024 16:37:13,28-01-2024 16:37:45,31.592s,PASSED
+closeBrowser(),Chrome 120.0.0.0,,,28-01-2024 16:37:45,28-01-2024 16:37:45,0.330s,PASSED
