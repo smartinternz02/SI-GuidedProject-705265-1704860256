@@ -1,0 +1,15 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Local and Global variables_TS,Chrome 121.0.0.0,,,05-02-2024 12:12:51,05-02-2024 12:14:38,1m - 47.204s,PASSED
+,,,,,,,
+Test Cases/Local and global Variables/TC_Facebook_Local and Global Variables,Chrome 121.0.0.0,,,05-02-2024 12:12:51,05-02-2024 12:14:38,1m - 47.027s,PASSED
+Start listener action : sampleBeforeTestCase,Chrome 121.0.0.0,,,05-02-2024 12:12:51,05-02-2024 12:12:52,0.503s,ERROR
+"openBrowser("""")",Chrome 121.0.0.0,,,05-02-2024 12:12:52,05-02-2024 12:12:56,3.892s,PASSED
+"navigateToUrl(""https://www.facebook.com/"")",Chrome 121.0.0.0,,,05-02-2024 12:12:56,05-02-2024 12:12:57,1.216s,PASSED
+"click(findTestObject(""Object Repository/TC_Facebook_RG_Variables_OR/Page_Facebook  log in or sign up/a_Create new account""))",Chrome 121.0.0.0,,,05-02-2024 12:12:57,05-02-2024 12:13:29,31.628s,PASSED
+"selectOptionByLabel(findTestObject(""TC_Fcaebook_buttons_OR/Page_Facebook  log in or sign up/select_12345678910111213141516171819202122232425262728293031""), ""5"", true)",Chrome 121.0.0.0,,,05-02-2024 12:13:29,05-02-2024 12:13:31,2.383s,PASSED
+"selectOptionByValue(findTestObject(""TC_Fcaebook_buttons_OR/Page_Facebook  log in or sign up/select_JanFebMarAprMayJunJulAugSepOctNovDec""), ""1"", true)",Chrome 121.0.0.0,,,05-02-2024 12:13:31,05-02-2024 12:13:32,1.289s,PASSED
+"selectOptionByIndex(findTestObject(""TC_buttons_002_OR/Page_Facebook  log in or sign up/select_202420232022202120202019201820172016_7237a8""), ""20"")",Chrome 121.0.0.0,,,05-02-2024 12:13:32,05-02-2024 12:13:34,1.289s,PASSED
+"click(findTestObject(""TC_Facebook_registartion_002_OR/Page_Facebook  log in or sign up/input_sex""))",Chrome 121.0.0.0,,,05-02-2024 12:13:34,05-02-2024 12:14:06,32.650s,PASSED
+"click(findTestObject(""TC_FB_registration_002/Page_Facebook  log in or sign up/button_Sign Up""))",Chrome 121.0.0.0,,,05-02-2024 12:14:06,05-02-2024 12:14:38,31.596s,PASSED
+closeBrowser(),Chrome 121.0.0.0,,,05-02-2024 12:14:38,05-02-2024 12:14:38,0.405s,PASSED
+Start listener action : sampleAfterTestCase,Chrome 121.0.0.0,,,05-02-2024 12:14:38,05-02-2024 12:14:38,0.054s,ERROR

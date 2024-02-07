@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="TC_Facebook_login_001_TS" time="44.724" tests="1" failures="0" errors="0">
+   <testsuite name="TC_Facebook_login_001_TS" tests="1" failures="0" errors="0" time="44.724" skipped="0" timestamp="04-02-2024T00:21:14" hostname="ANILKUMAR - DESKTOP-FOKPJIU" id="Test Suites/TC_Facebook_login_TS/TC_Facebook_login_001_TS">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\ANILKUMAR\\Katalon Studio\\Facebook Application Testing\\Reports\\20240204_002015\\TC_Facebook_login_TS\\TC_Facebook_login_001_TS\\20240204_002107"/>
+         <property name="logFiles" value="C:\\Users\\ANILKUMAR\\Katalon Studio\\Facebook Application Testing\\Reports\\20240204_002015\\TC_Facebook_login_TS\\TC_Facebook_login_001_TS\\20240204_002107\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="ANILKUMAR - DESKTOP-FOKPJIU"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="9.2.0.212"/>
+         <property name="browser" value="Chrome 121.0.0.0"/>
+         <property name="hostAddress" value="192.168.29.213"/>
+         <property name="sessionId" value="e93400293d6c9aff216eb238501a8483"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/TC_Facebook_login/TC_Facebook_login_001" time="44.49" classname="Test Cases/TC_Facebook_login/TC_Facebook_login_001" status="PASSED">
+         <system-out><![CDATA[04-02-2024T00:21:14 - [TEST_CASE][PASSED] - Test Cases/TC_Facebook_login/TC_Facebook_login_001: Test Cases/TC_Facebook_login/TC_Facebook_login_001
+
+04-02-2024T00:21:15 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+04-02-2024T00:21:15 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+04-02-2024T00:21:15 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+04-02-2024T00:21:19 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+04-02-2024T00:21:19 - [TEST_STEP][PASSED] - navigateToUrl("www.facebook.com"): Navigate to 'http://www.facebook.com' successfully
+
+04-02-2024T00:21:20 - [MESSAGE][PASSED] - Navigate to 'http://www.facebook.com' successfully
+
+04-02-2024T00:21:20 - [TEST_STEP][PASSED] - setText(findTestObject("TC_Facebook_login_001_OR/Page_Facebook  log in or sign up/input_Facebook helps you connect and share with the people in your life_email"), "ch.anil9cc@gmail.com"): Text 'ch.anil9cc@gmail.com' is set on object 'Object Repository/TC_Facebook_login_001_OR/Page_Facebook  log in or sign up/input_Facebook helps you connect and share with the people in your life_email'
+
+04-02-2024T00:21:21 - [MESSAGE][PASSED] - Text 'ch.anil9cc@gmail.com' is set on object 'Object Repository/TC_Facebook_login_001_OR/Page_Facebook  log in or sign up/input_Facebook helps you connect and share with the people in your life_email'
+
+04-02-2024T00:21:21 - [TEST_STEP][PASSED] - setText(findTestObject("TC_Facebook_login_001_OR/Page_Facebook  log in or sign up/input_Facebook helps you connect and share with the people in your life_pass"), "A2@facebook"): Text 'A2@facebook' is set on object 'Object Repository/TC_Facebook_login_001_OR/Page_Facebook  log in or sign up/input_Facebook helps you connect and share with the people in your life_pass'
+
+04-02-2024T00:21:22 - [MESSAGE][PASSED] - Text 'A2@facebook' is set on object 'Object Repository/TC_Facebook_login_001_OR/Page_Facebook  log in or sign up/input_Facebook helps you connect and share with the people in your life_pass'
+
+04-02-2024T00:21:22 - [TEST_STEP][PASSED] - click(findTestObject("TC_Facebook_login_001_OR/Page_Facebook  log in or sign up/button_Log in")): Object: 'Object Repository/TC_Facebook_login_001_OR/Page_Facebook  log in or sign up/button_Log in' is clicked on
+
+04-02-2024T00:21:53 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //button[@id='u_0_5_bw']'. Please recheck the objects properties to make sure the desired element is located. 
+
+04-02-2024T00:21:53 - [MESSAGE][WARNING] - [SELF-HEALING] Failed to find element with id 'Object Repository/TC_Facebook_login_001_OR/Page_Facebook  log in or sign up/button_Log in'. Try using Self-healing.
+
+04-02-2024T00:21:53 - [MESSAGE][WARNING] - [SELF-HEALING] The current locator of test object 'Object Repository/TC_Facebook_login_001_OR/Page_Facebook  log in or sign up/button_Log in' was broken. Propose an alternative one: '//button'.
+
+04-02-2024T00:21:53 - [MESSAGE][PASSED] - Object: 'Object Repository/TC_Facebook_login_001_OR/Page_Facebook  log in or sign up/button_Log in' is clicked on
+
+04-02-2024T00:21:53 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+04-02-2024T00:21:58 - [MESSAGE][PASSED] - Current window maximized
+
+04-02-2024T00:21:58 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+04-02-2024T00:21:59 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[04-02-2024T00:21:14 - [TEST_SUITE][PASSED] - TC_Facebook_login_001_TS: Test Cases/TC_Facebook_login/TC_Facebook_login_001]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>
