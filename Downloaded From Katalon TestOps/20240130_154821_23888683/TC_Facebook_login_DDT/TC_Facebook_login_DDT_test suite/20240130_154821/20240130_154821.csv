@@ -1,0 +1,7 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+TC_Facebook_login_DDT_test suite,Chrome 121.0.0.0,,,30-01-2024 15:48:29,30-01-2024 15:48:46,17.704s,ERROR
+,,,,,,,
+Test Cases/Tc_facebook_DDT/TC_Facebook_login,Chrome 121.0.0.0,,,30-01-2024 15:48:43,30-01-2024 15:48:46,3.011s,ERROR
+"openBrowser("""")",Chrome 121.0.0.0,,,30-01-2024 15:48:43,30-01-2024 15:48:45,1.354s,PASSED
+"navigateToUrl(""www.facebook.com"")",Chrome 121.0.0.0,,,30-01-2024 15:48:45,30-01-2024 15:48:46,1.611s,PASSED
+setText(id),Chrome 121.0.0.0,,,30-01-2024 15:48:46,30-01-2024 15:48:46,0.004s,ERROR

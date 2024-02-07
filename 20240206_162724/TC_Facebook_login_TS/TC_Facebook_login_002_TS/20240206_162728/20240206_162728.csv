@@ -1,0 +1,14 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+TC_Facebook_login_002_TS,Firefox 112.0,,,06-02-2024 16:27:43,06-02-2024 16:28:44,1m - 0.935s,PASSED
+,,,,,,,
+Test Cases/TC_Facebook_login/TC_Facebook_login_002,Firefox 112.0,,,06-02-2024 16:27:44,06-02-2024 16:28:44,1m - 0.586s,PASSED
+Start listener action : sampleBeforeTestCase,Firefox 112.0,,,06-02-2024 16:27:44,06-02-2024 16:27:46,2.022s,ERROR
+Start listener action : sampleBeforeTestCase,Firefox 112.0,,,06-02-2024 16:27:46,06-02-2024 16:27:46,0.001s,PASSED
+"openBrowser("""")",Firefox 112.0,,,06-02-2024 16:27:46,06-02-2024 16:28:04,17.134s,PASSED
+"navigateToUrl(""https://www.facebook.com/"")",Firefox 112.0,,,06-02-2024 16:28:04,06-02-2024 16:28:05,1.638s,PASSED
+"setText(findTestObject(""Object Repository/TC_Facebook_login_002_OR/Page_Facebook  log in or sign up/input_email""), ""ch.anil9cc@gmail.com"")",Firefox 112.0,,,06-02-2024 16:28:05,06-02-2024 16:28:06,1.234s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/TC_Facebook_login_002_OR/Page_Facebook  log in or sign up/input_pass""), ""W2GK3EQWqZvrn+I/lxFPEQ=="")",Firefox 112.0,,,06-02-2024 16:28:06,06-02-2024 16:28:07,0.532s,PASSED
+"click(findTestObject(""Object Repository/TC_Facebook_login_002_OR/Page_Facebook  log in or sign up/button_Log in""))",Firefox 112.0,,,06-02-2024 16:28:07,06-02-2024 16:28:42,35.053s,PASSED
+closeBrowser(),Firefox 112.0,,,06-02-2024 16:28:42,06-02-2024 16:28:44,1.690s,PASSED
+Start listener action : sampleAfterTestCase,Firefox 112.0,,,06-02-2024 16:28:44,06-02-2024 16:28:44,0.551s,ERROR
+Start listener action : sampleAfterTestCase,Firefox 112.0,,,06-02-2024 16:28:44,06-02-2024 16:28:44,0.034s,PASSED

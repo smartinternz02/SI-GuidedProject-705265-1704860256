@@ -1,0 +1,14 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+TC_Facebook_login_003_TS,Chrome 121.0.0.0,,,06-02-2024 16:27:49,06-02-2024 16:28:35,45.534s,PASSED
+,,,,,,,
+Test Cases/TC_Facebook_login/TC_Facebook_login_003,Chrome 121.0.0.0,,,06-02-2024 16:27:50,06-02-2024 16:28:35,45.022s,PASSED
+Start listener action : sampleBeforeTestCase,Chrome 121.0.0.0,,,06-02-2024 16:27:50,06-02-2024 16:27:51,1.127s,ERROR
+Start listener action : sampleBeforeTestCase,Chrome 121.0.0.0,,,06-02-2024 16:27:51,06-02-2024 16:27:51,0.002s,PASSED
+"openBrowser("""")",Chrome 121.0.0.0,,,06-02-2024 16:27:51,06-02-2024 16:27:58,7.476s,PASSED
+"navigateToUrl(""http://www.facebook.com"")",Chrome 121.0.0.0,,,06-02-2024 16:27:58,06-02-2024 16:28:00,1.379s,PASSED
+"setText(findTestObject(""Object Repository/TC_Facebook_login_001_OR/Page_Facebook  log in or sign up/input_Facebook helps you connect and share with the people in your life_email""), ""ch.anil9cc@gmail.com"")",Chrome 121.0.0.0,,,06-02-2024 16:28:00,06-02-2024 16:28:01,1.238s,PASSED
+"setText(findTestObject(""Object Repository/TC_Facebook_login_001_OR/Page_Facebook  log in or sign up/input_Facebook helps you connect and share with the people in your life_pass""), ""A2@facebook"")",Chrome 121.0.0.0,,,06-02-2024 16:28:01,06-02-2024 16:28:02,0.828s,PASSED
+"click(findTestObject(""Object Repository/TC_Facebook_login_001_OR/Page_Facebook  log in or sign up/button_Log in""))",Chrome 121.0.0.0,,,06-02-2024 16:28:02,06-02-2024 16:28:34,31.977s,PASSED
+closeBrowser(),Chrome 121.0.0.0,,,06-02-2024 16:28:34,06-02-2024 16:28:34,0.427s,PASSED
+Start listener action : sampleAfterTestCase,Chrome 121.0.0.0,,,06-02-2024 16:28:34,06-02-2024 16:28:35,0.201s,ERROR
+Start listener action : sampleAfterTestCase,Chrome 121.0.0.0,,,06-02-2024 16:28:35,06-02-2024 16:28:35,0.037s,PASSED
