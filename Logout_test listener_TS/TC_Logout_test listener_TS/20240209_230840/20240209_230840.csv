@@ -1,0 +1,8 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+TC_Logout_test listener_TS,Chrome 121.0.0.0,,,09-02-2024 23:08:45,09-02-2024 23:09:27,41.937s,PASSED
+,,,,,,,
+Test Cases/Logout_test listener/TC_Logout_test listener,Chrome 121.0.0.0,,,09-02-2024 23:08:53,09-02-2024 23:09:27,34.456s,PASSED
+Start listener action : sampleBeforeTestCase,Chrome 121.0.0.0,,,09-02-2024 23:08:53,09-02-2024 23:09:09,16.245s,PASSED
+"click(findTestObject(""TC_Logout_OR/Page_Facebook/span_x4k7w5x x1h91t0o x1h9r5lt x1jfb8zj xv2_c8d3b2""))",Chrome 121.0.0.0,,,09-02-2024 23:09:09,09-02-2024 23:09:22,12.594s,PASSED
+"click(findTestObject(""Object Repository/TC_logout_test listener_OR/Page_Facebook/span_Log out""))",Chrome 121.0.0.0,,,09-02-2024 23:09:22,09-02-2024 23:09:23,1.649s,PASSED
+Start listener action : sampleAfterTestCase,Chrome 121.0.0.0,,,09-02-2024 23:09:23,09-02-2024 23:09:27,3.761s,ERROR
