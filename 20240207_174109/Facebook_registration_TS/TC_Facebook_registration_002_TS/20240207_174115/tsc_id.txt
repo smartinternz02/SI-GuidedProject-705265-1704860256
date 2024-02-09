@@ -1,1 +1,0 @@
-Test Suites/Facebook_registration_TSC/TC_Facebook_Registration_TSC
