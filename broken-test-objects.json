@@ -1,0 +1,24 @@
+{
+  "brokenTestObjects": [
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/TC_logout_test listener_OR/Page_Facebook/span_x4k7w5x x1h91t0o x1h9r5lt x1jfb8zj xv2_c8d3b2",
+      "brokenLocator": "",
+      "brokenLocatorMethod": "IMAGE",
+      "proposedLocator": "//div/span",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/20240209_235303/Logout_test listener_TS/TC_Logout_test listener_TS/20240209_235303/Object Repository/TC_logout_test listener_OR/Page_Facebook/span_x4k7w5x x1h91t0o x1h9r5lt x1jfb8zj xv2_c8d3b2_position.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/TC_logout_test listener_OR/Page_Facebook/span_Log out",
+      "brokenLocator": "",
+      "brokenLocatorMethod": "IMAGE",
+      "proposedLocator": "//div[5]/div/div/div[2]/div/div/div/div/span",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/20240209_235303/Logout_test listener_TS/TC_Logout_test listener_TS/20240209_235303/Object Repository/TC_logout_test listener_OR/Page_Facebook/span_Log out_position.png"
+    }
+  ]
+}

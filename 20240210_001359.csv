@@ -1,0 +1,22 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+TC_Facebook_registration_001_TS,Chrome 121.0.0.0,,,10-02-2024 00:14:16,10-02-2024 00:14:47,31.150s,PASSED
+,,,,,,,
+Test Cases/Facebook_registration/Facebook_registration/TC_Facebook_registration_001,Chrome 121.0.0.0,,,10-02-2024 00:14:16,10-02-2024 00:14:47,30.908s,PASSED
+Start listener action : sampleBeforeTestCase,Chrome 121.0.0.0,,,10-02-2024 00:14:17,10-02-2024 00:14:17,0.783s,ERROR
+"openBrowser("""")",Chrome 121.0.0.0,,,10-02-2024 00:14:17,10-02-2024 00:14:22,4.769s,PASSED
+"navigateToUrl(""www.facebook.com"")",Chrome 121.0.0.0,,,10-02-2024 00:14:22,10-02-2024 00:14:24,1.431s,PASSED
+"click(findTestObject(""TC_Facebook_registration_001_OR/Page_Facebook  log in or sign up/a_Create new account""))",Chrome 121.0.0.0,,,10-02-2024 00:14:24,10-02-2024 00:14:25,0.848s,PASSED
+"setText(findTestObject(""TC_Facebook_registration_001_OR/Page_Facebook  log in or sign up/input_firstname""), ""anil"")",Chrome 121.0.0.0,,,10-02-2024 00:14:25,10-02-2024 00:14:26,1.714s,PASSED
+"setText(findTestObject(""TC_Facebook_registration_001_OR/Page_Facebook  log in or sign up/input_lastname""), ""chelimilla"")",Chrome 121.0.0.0,,,10-02-2024 00:14:26,10-02-2024 00:14:27,0.809s,PASSED
+"setText(findTestObject(""TC_Facebook_registration_001_OR/Page_Facebook  log in or sign up/input_reg_email__""), ""ch.anil9cc@gmail.com"")",Chrome 121.0.0.0,,,10-02-2024 00:14:27,10-02-2024 00:14:28,0.923s,PASSED
+"setText(findTestObject(""TC_Facebook_registration_001_OR/Page_Facebook  log in or sign up/input_reg_email_confirmation__""), ""ch.anil9cc@gmail.com"")",Chrome 121.0.0.0,,,10-02-2024 00:14:28,10-02-2024 00:14:29,0.842s,PASSED
+"setEncryptedText(findTestObject(""TC_Facebook_registration_001_OR/Page_Facebook  log in or sign up/input_reg_passwd__""), ""qpR5QGbtPO/Q9OPNRZU6Dg=="")",Chrome 121.0.0.0,,,10-02-2024 00:14:29,10-02-2024 00:14:29,0.594s,PASSED
+"selectOptionByLabel(findTestObject(""TC_Facebook_registration_001_OR/Page_Facebook  log in or sign up/select_123456789101112131415161718192021222_566da4""), ""16"", true)",Chrome 121.0.0.0,,,10-02-2024 00:14:29,10-02-2024 00:14:31,1.662s,PASSED
+"selectOptionByValue(findTestObject(""TC_Facebook_registration_001_OR/Page_Facebook  log in or sign up/select_JanFebMarAprMayJunJulAugSepOctNovDec""), ""5"", true)",Chrome 121.0.0.0,,,10-02-2024 00:14:31,10-02-2024 00:14:32,1.361s,PASSED
+"selectOptionByIndex(findTestObject(""TC_Facebook_registration_001_OR/Page_Facebook  log in or sign up/select_202420232022202120202019201820172016_7237a8""), 23)",Chrome 121.0.0.0,,,10-02-2024 00:14:32,10-02-2024 00:14:34,1.253s,PASSED
+"click(findTestObject(""TC_Facebook_registration_001_OR/Page_Facebook  log in or sign up/label_Male""))",Chrome 121.0.0.0,,,10-02-2024 00:14:34,10-02-2024 00:14:34,0.399s,PASSED
+"click(findTestObject(""TC_Facebook_registration_001_OR/Page_Facebook  log in or sign up/button_Sign Up""))",Chrome 121.0.0.0,,,10-02-2024 00:14:34,10-02-2024 00:14:34,0.353s,PASSED
+"click(findTestObject(""TC_Facebook_registration_001_OR/Page_Facebook  log in or sign up/span_x4k7w5x x1h91t0o x1h9r5lt x1jfb8zj xv2_c8d3b2""))",Chrome 121.0.0.0,,,10-02-2024 00:14:34,10-02-2024 00:14:46,11.520s,PASSED
+"click(findTestObject(""TC_Facebook_registration_001_OR/Page_Facebook  log in or sign up/span_Log out""))",Chrome 121.0.0.0,,,10-02-2024 00:14:46,10-02-2024 00:14:47,0.705s,PASSED
+closeBrowser(),Chrome 121.0.0.0,,,10-02-2024 00:14:47,10-02-2024 00:14:47,0.650s,PASSED
+Start listener action : sampleAfterTestCase,Chrome 121.0.0.0,,,10-02-2024 00:14:47,10-02-2024 00:14:47,0.048s,ERROR
