@@ -1,9 +1,0 @@
-Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
-TC_Facebook_login_002_TS,,,,06-02-2024 16:25:03,06-02-2024 16:25:22,18.781s,FAILED
-,,,,,,,
-Test Cases/TC_Facebook_login/TC_Facebook_login_002,,,,06-02-2024 16:25:19,06-02-2024 16:25:22,2.648s,FAILED
-Start listener action : sampleBeforeTestCase,,,,06-02-2024 16:25:19,06-02-2024 16:25:19,0.144s,ERROR
-Start listener action : sampleBeforeTestCase,,,,06-02-2024 16:25:19,06-02-2024 16:25:19,0.001s,PASSED
-"openBrowser("""")",,,,06-02-2024 16:25:19,06-02-2024 16:25:22,2.280s,FAILED
-Start listener action : sampleAfterTestCase,,,,06-02-2024 16:25:22,06-02-2024 16:25:22,0.146s,ERROR
-Start listener action : sampleAfterTestCase,,,,06-02-2024 16:25:22,06-02-2024 16:25:22,0.004s,PASSED
