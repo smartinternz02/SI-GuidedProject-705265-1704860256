@@ -1,0 +1,282 @@
+Started by user CHELIMILLA VENKATA ANIL KUMAR
+Running as SYSTEM
+Building in workspace C:\Users\ANILKUMAR\.jenkins\workspace\Facebook test listener
+[2024-02-09T23:08:05.777912500] Katalon Studio package has been downloaded already.
+[2024-02-09T23:08:05.790101500] Using Katalon Studio at C:\Users\ANILKUMAR\.katalon\9.1.0\Katalon_Studio_Engine_Windows_64-9.1.0
+[2024-02-09T23:08:06.434802600] Making driver executables...
+[2024-02-09T23:08:06.434802600] Drivers folder at: C:\Users\ANILKUMAR\.katalon\9.1.0\Katalon_Studio_Engine_Windows_64-9.1.0\configuration\resources\drivers
+[2024-02-09T23:08:06.453038500] Set chromedriver.exe as executable !
+[2024-02-09T23:08:06.453038500] Set LICENSE.chromedriver as executable !
+[2024-02-09T23:08:06.453038500] Set credits.html as executable !
+[2024-02-09T23:08:06.453038500] Set EULA as executable !
+[2024-02-09T23:08:06.453038500] Set LICENSE as executable !
+[2024-02-09T23:08:06.453038500] Set msedgedriver.exe as executable !
+[2024-02-09T23:08:06.453038500] Set MicrosoftWebDriver.exe as executable !
+[2024-02-09T23:08:06.468803200] Set geckodriver.exe as executable !
+[2024-02-09T23:08:06.468803200] Set resolution.properties as executable !
+[2024-02-09T23:08:06.468803200] Set IEDriverServer.exe as executable !
+[2024-02-09T23:08:06.484425900] Execute [cmd, /c, C:\Users\ANILKUMAR\.katalon\9.1.0\Katalon_Studio_Engine_Windows_64-9.1.0\katalonc.exe katalonc -noSplash -runMode=console -projectPath="C:\Users\ANILKUMAR\git\SI-GuidedProject-705265-1704860256\FACEBOOK-project.prj" -retry=0 -testSuitePath="Test Suites/Logout_test listener_TS/TC_Logout_test listener_TS" -browserType="Chrome" -executionProfile="default" -apiKey="bc73b42f-b38f-438d-9d89-e38491530c80" --config -proxy.auth.option=NO_PROXY -proxy.system.option=NO_PROXY -proxy.system.applyToDesiredCapabilities=true -webui.autoUpdateDrivers=true ] in C:\Users\ANILKU~1\AppData\Local\Temp\katalon-331897667784515632
+[2024-02-09T23:08:09.211885800] Katalon workspace folder is set to default location: C:\Users\ANILKU~1\AppData\Local\Temp\session-c4dc8c3c
+[2024-02-09T23:08:09.680884100] Starting Groovy-Eclipse compiler resolver. Specified compiler level: unspecified
+[2024-02-09T23:08:09.680884100] 167 org.codehaus.groovy_3.0.17.v202303311542-e2303 ACTIVE
+[2024-02-09T23:08:10.115553500] Activating...
+[2024-02-09T23:08:10.120555] Start getting machine ID on Windows
+[2024-02-09T23:08:10.198846600] Start appending additional signatures
+[2024-02-09T23:08:10.344440800] hardwareSerialNumber 82y4l73
+[2024-02-09T23:08:10.345483900] osDependentUsername anilkumar
+[2024-02-09T23:08:10.346501100] End appending additional signatures b64c00d2-285a-4683-b7e0-cb657aab8154__anilkumar
+[2024-02-09T23:08:10.347634900] End getting machine ID on Windows 7be2a62189f456be802a081e7c78fef6
+[2024-02-09T23:08:10.353095300] Start activating offline...
+[2024-02-09T23:08:10.355096] Search for valid offline licenses in folder: C:\Users\ANILKUMAR\.katalon\license
+[2024-02-09T23:08:10.358095200] The number of valid offline licenses: 0
+[2024-02-09T23:08:11.682204200] Start activating online...
+[2024-02-09T23:08:16.177262400] Activated successfully with Katalon Runtime Engine license. 
+[2024-02-09T23:08:16.179259400] Activated successfully with TestCloud license. 
+[2024-02-09T23:08:16.188922700] 
+[2024-02-09T23:08:16.188922700] 
+[2024-02-09T23:08:16.190986] INFO: Katalon Version: 9.1.0
+[2024-02-09T23:08:16.195964900] INFO: Command-line arguments: katalonc -runMode=console -projectPath=C:\Users\ANILKUMAR\git\SI-GuidedProject-705265-1704860256\FACEBOOK-project.prj -retry=0 -testSuitePath=Test Suites/Logout_test listener_TS/TC_Logout_test listener_TS -browserType=Chrome -executionProfile=default -apiKey=******** --config -proxy.auth.option=NO_PROXY -proxy.system.option=NO_PROXY -proxy.system.applyToDesiredCapabilities=true -webui.autoUpdateDrivers=true
+[2024-02-09T23:08:16.197997500] INFO: User working dir: C:\Users\ANILKU~1\AppData\Local\Temp\katalon-331897667784515632
+[2024-02-09T23:08:16.199004] INFO: Error log: C:/Users/ANILKUMAR/AppData/Local/Temp/session-c4dc8c3c/.metadata/.log
+[2024-02-09T23:08:16.199925300] INFO: Katalon KatOne server URL: https://admin.katalon.com
+[2024-02-09T23:08:16.200926200] INFO: Katalon TestOps server URL: https://testops.katalon.io
+[2024-02-09T23:08:16.202923100] INFO: Katalon Store server URL: https://store.katalon.com
+[2024-02-09T23:08:16.204922300] INFO: User home: C:\Users\ANILKUMAR
+[2024-02-09T23:08:16.205926800] INFO: Java vendor: Eclipse Adoptium
+[2024-02-09T23:08:16.207002400] INFO: Java version: 17.0.7
+[2024-02-09T23:08:16.208923100] INFO: Local OS: Windows 10 64bit
+[2024-02-09T23:08:17.060052600] INFO: CPU load: 9%
+[2024-02-09T23:08:17.062052500] INFO: Total memory: 3818 MB
+[2024-02-09T23:08:17.064057500] INFO: Free memory: 223 MB
+[2024-02-09T23:08:17.065051200] INFO: Machine ID: 7be2a62189f456be802a081e7c78fef6
+[2024-02-09T23:08:17.066055500] 
+[2024-02-09T23:08:17.066055500] 
+[2024-02-09T23:08:17.071968] Delete folder: bin
+[2024-02-09T23:08:17.132410300] Delete folder: Libs
+[2024-02-09T23:08:17.184203700] Cleaning up workspace
+[2024-02-09T23:08:17.186273200] Opening project file: C:\Users\ANILKUMAR\git\SI-GuidedProject-705265-1704860256\FACEBOOK-project.prj
+[2024-02-09T23:08:22.552858900] Generating global variables...
+[2024-02-09T23:08:24.150468900] Project 'FACEBOOK-project' opened
+[2024-02-09T23:08:24.247173] Start reloading plugins...
+[2024-02-09T23:08:25.798500100] Katalon version: 9.1.0
+[2024-02-09T23:08:25.798500100] Plugin info URL: https://store.katalon.com/api/products/ks?appVersion=9.1.0&appType=ENGINE&licenseType=TRIAL
+[2024-02-09T23:08:29.520311100] Start checking license task
+[2024-02-09T23:08:37.335516500] Chrome driver is located at: C:\Users\ANILKUMAR\.katalon\9.1.0\Katalon_Studio_Engine_Windows_64-9.1.0\configuration\resources\temp\webdriver\chromedriver.exe
+[2024-02-09T23:08:40.955919900] INFO: KATALON_JAVA_HOME: null
+[2024-02-09T23:08:41.045340] 
+[2024-02-09T23:08:41.045340] --------------------------------------------------------------------------------
+[2024-02-09T23:08:41.045340] Test Suites/Logout_test listener_TS/TC_Logout_test listener_TS - Chrome - 202402
+[2024-02-09T23:08:41.045340] 09_230840................................................................0/1(0%)
+[2024-02-09T23:08:41.045340] --------------------------------------------------------------------------------
+[2024-02-09T23:08:41.045340] 
+[2024-02-09T23:08:45.624537400] 2024-02-09 23:08:45.611 INFO  c.k.katalon.core.main.TestSuiteExecutor  - START Test Suites/Logout_test listener_TS/TC_Logout_test listener_TS
+[2024-02-09T23:08:45.690984700] 2024-02-09 23:08:45.689 INFO  c.k.katalon.core.main.TestSuiteExecutor  - hostName = ANILKUMAR - DESKTOP-FOKPJIU
+[2024-02-09T23:08:45.692198300] 2024-02-09 23:08:45.690 INFO  c.k.katalon.core.main.TestSuiteExecutor  - os = Windows 10 64bit
+[2024-02-09T23:08:45.692468100] 2024-02-09 23:08:45.692 INFO  c.k.katalon.core.main.TestSuiteExecutor  - hostAddress = 192.168.29.213
+[2024-02-09T23:08:45.693084500] 2024-02-09 23:08:45.692 INFO  c.k.katalon.core.main.TestSuiteExecutor  - katalonVersion = 9.1.0.212
+[2024-02-09T23:08:46.079420] 2024-02-09 23:08:46.076 INFO  c.k.k.core.webui.driver.DriverFactory    - Starting 'Chrome' driver
+[2024-02-09T23:08:46.102235900] Feb 09, 2024 11:08:46 PM org.openqa.selenium.remote.DesiredCapabilities chrome
+[2024-02-09T23:08:46.102235900] INFO: Using `new ChromeOptions()` is preferred to `DesiredCapabilities.chrome()`
+[2024-02-09T23:08:46.296385100] 2024-02-09 23:08:46.295 INFO  c.k.k.core.webui.driver.DriverFactory    - Action delay is set to 0 milliseconds
+[2024-02-09T23:08:47.757081500] Starting ChromeDriver 121.0.6167.85 (3f98d690ad7e59242ef110144c757b2ac4eef1a2-refs/branch-heads/6167@{#1539}) on port 29891
+[2024-02-09T23:08:47.757081500] Only local connections are allowed.
+[2024-02-09T23:08:47.758080400] Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+[2024-02-09T23:08:47.778590400] ChromeDriver was started successfully.
+[2024-02-09T23:08:51.536354800] Feb 09, 2024 11:08:51 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+[2024-02-09T23:08:51.537361900] INFO: Detected dialect: W3C
+[2024-02-09T23:08:51.654152100] 2024-02-09 23:08:51.652 INFO  c.k.k.core.webui.driver.DriverFactory    - sessionId = c65df2c3f11d0b180d6676de3db9d0d9
+[2024-02-09T23:08:51.700898600] 2024-02-09 23:08:51.699 INFO  c.k.k.core.webui.driver.DriverFactory    - browser = Chrome 121.0.0.0
+[2024-02-09T23:08:51.702086] 2024-02-09 23:08:51.700 INFO  c.k.k.core.webui.driver.DriverFactory    - platform = Windows 10
+[2024-02-09T23:08:51.702321400] 2024-02-09 23:08:51.702 INFO  c.k.k.core.webui.driver.DriverFactory    - seleniumVersion = 3.141.59
+[2024-02-09T23:08:51.703971500] 2024-02-09 23:08:51.702 INFO  c.k.k.core.webui.driver.DriverFactory    - proxyInformation = ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList="", isApplyToDesiredCapabilities=true }
+[2024-02-09T23:08:53.141874800] 2024-02-09 23:08:53.140 INFO  c.k.katalon.core.main.TestCaseExecutor   - --------------------
+[2024-02-09T23:08:53.141874800] 2024-02-09 23:08:53.140 INFO  c.k.katalon.core.main.TestCaseExecutor   - START Test Cases/Logout_test listener/TC_Logout_test listener
+[2024-02-09T23:08:56.072042700] 
+[2024-02-09T23:08:56.072542500] --------------------------------------------------------------------------------
+[2024-02-09T23:08:56.072542500] Test Suites/Logout_test listener_TS/TC_Logout_test listener_TS - Chrome - 202402
+[2024-02-09T23:08:56.073406200] 09_230840................................................................0/1(0%)
+[2024-02-09T23:08:56.073406200] --------------------------------------------------------------------------------
+[2024-02-09T23:08:56.073406200] 
+[2024-02-09T23:09:09.586790100] 2024-02-09 23:09:09.577 DEBUG testcase.TC_Logout_test listener         - 1: click(findTestObject("TC_Logout_OR/Page_Facebook/span_x4k7w5x x1h91t0o x1h9r5lt x1jfb8zj xv2_c8d3b2"))
+[2024-02-09T23:09:09.648923700] 2024-02-09 23:09:09.646 WARN  c.k.k.c.webui.common.WebUiCommonHelper   - [SELF-HEALING] Failed to find element with id 'Object Repository/TC_Logout_OR/Page_Facebook/span_x4k7w5x x1h91t0o x1h9r5lt x1jfb8zj xv2_c8d3b2'. Try using Self-healing.
+[2024-02-09T23:09:11.080054400] 
+[2024-02-09T23:09:11.080553400] --------------------------------------------------------------------------------
+[2024-02-09T23:09:11.080553400] Test Suites/Logout_test listener_TS/TC_Logout_test listener_TS - Chrome - 202402
+[2024-02-09T23:09:11.080553400] 09_230840................................................................0/1(0%)
+[2024-02-09T23:09:11.080553400] --------------------------------------------------------------------------------
+[2024-02-09T23:09:11.080553400] 
+[2024-02-09T23:09:19.454956300] 2024-02-09 23:09:19.451 WARN  c.k.k.c.webui.common.WebUiCommonHelper   - [SELF-HEALING] The current locator of test object 'Object Repository/TC_Logout_OR/Page_Facebook/span_x4k7w5x x1h91t0o x1h9r5lt x1jfb8zj xv2_c8d3b2' was broken. Propose an alternative one: '//div/span'.
+[2024-02-09T23:09:22.181357700] 2024-02-09 23:09:22.175 DEBUG testcase.TC_Logout_test listener         - 2: click(findTestObject("Object Repository/TC_logout_test listener_OR/Page_Facebook/span_Log out"))
+[2024-02-09T23:09:22.433428700] 2024-02-09 23:09:22.432 WARN  c.k.k.c.webui.common.WebUiCommonHelper   - [SELF-HEALING] Failed to find element with id 'Object Repository/TC_logout_test listener_OR/Page_Facebook/span_Log out'. Try using Self-healing.
+[2024-02-09T23:09:23.720122600] 2024-02-09 23:09:23.719 WARN  c.k.k.c.webui.common.WebUiCommonHelper   - [SELF-HEALING] The current locator of test object 'Object Repository/TC_logout_test listener_OR/Page_Facebook/span_Log out' was broken. Propose an alternative one: '//div[5]/div/div/div[2]/div/div/div/div/span'.
+[2024-02-09T23:09:23.932521900] 2024-02-09 23:09:23.931 WARN  c.k.k.c.webui.common.WebUiCommonHelper   - [SELF-HEALING] Failed to find element with id 'Object Repository/TC_Logout_OR/Page_Facebook/span_x4k7w5x x1h91t0o x1h9r5lt x1jfb8zj xv2_c8d3b2'. Try using Self-healing.
+[2024-02-09T23:09:26.082085] 
+[2024-02-09T23:09:26.082085] --------------------------------------------------------------------------------
+[2024-02-09T23:09:26.082085] Test Suites/Logout_test listener_TS/TC_Logout_test listener_TS - Chrome - 202402
+[2024-02-09T23:09:26.082085] 09_230840................................................................0/1(0%)
+[2024-02-09T23:09:26.082085] --------------------------------------------------------------------------------
+[2024-02-09T23:09:26.083084100] 
+[2024-02-09T23:09:27.149844100] 2024-02-09 23:09:27.148 WARN  c.k.k.c.webui.common.WebUiCommonHelper   - [SELF-HEALING] The current locator of test object 'Object Repository/TC_Logout_OR/Page_Facebook/span_x4k7w5x x1h91t0o x1h9r5lt x1jfb8zj xv2_c8d3b2' was broken. Propose an alternative one: '//div/span'.
+[2024-02-09T23:09:27.549964] 2024-02-09 23:09:27.544 ERROR c.k.k.core.keyword.internal.KeywordMain  - ? Unable to click on object 'Object Repository/TC_Logout_OR/Page_Facebook/span_x4k7w5x x1h91t0o x1h9r5lt x1jfb8zj xv2_c8d3b2' (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/TC_Logout_OR/Page_Facebook/span_x4k7w5x x1h91t0o x1h9r5lt x1jfb8zj xv2_c8d3b2'
+[2024-02-09T23:09:27.549964] 	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+[2024-02-09T23:09:27.549964] 	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+[2024-02-09T23:09:27.549964] 	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:74)
+[2024-02-09T23:09:27.549964] 	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+[2024-02-09T23:09:27.549964] 	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+[2024-02-09T23:09:27.549964] 	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:659)
+[2024-02-09T23:09:27.549964] 	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$1.call(Unknown Source)
+[2024-02-09T23:09:27.549964] 	at Facebook_registration_logout_TL.sampleAfterTestCase(Facebook_registration_logout_TL.groovy:72)
+[2024-02-09T23:09:27.549964] 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+[2024-02-09T23:09:27.549964] 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+[2024-02-09T23:09:27.549964] 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+[2024-02-09T23:09:27.549964] 	at com.kms.katalon.core.context.internal.TestHooker.invokeMethod(TestHooker.java:111)
+[2024-02-09T23:09:27.549964] 	at com.kms.katalon.core.context.internal.TestHooker.lambda$3(TestHooker.java:95)
+[2024-02-09T23:09:27.549964] 	at com.kms.katalon.core.context.internal.TestHooker.invokeContextMethods(TestHooker.java:94)
+[2024-02-09T23:09:27.550826100] 	at com.kms.katalon.core.context.internal.TestListenerCollector.lambda$3(TestListenerCollector.java:88)
+[2024-02-09T23:09:27.550826100] 	at com.kms.katalon.core.context.internal.TestListenerCollector.handleListenerEvent(TestListenerCollector.java:85)
+[2024-02-09T23:09:27.550826100] 	at com.kms.katalon.core.context.internal.ExecutionEventManager.publicEvent(ExecutionEventManager.java:36)
+[2024-02-09T23:09:27.550826100] 	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:315)
+[2024-02-09T23:09:27.550826100] 	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+[2024-02-09T23:09:27.550826100] 	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+[2024-02-09T23:09:27.551507400] 	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+[2024-02-09T23:09:27.552462900] 	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+[2024-02-09T23:09:27.552462900] 	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+[2024-02-09T23:09:27.552462900] 	at TempTestSuite1707500320382.run(TempTestSuite1707500320382.groovy:36)
+[2024-02-09T23:09:27.552462900] 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+[2024-02-09T23:09:27.552462900] 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+[2024-02-09T23:09:27.552462900] 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+[2024-02-09T23:09:27.552931900] Caused by: org.openqa.selenium.ElementNotInteractableException: element not interactable
+[2024-02-09T23:09:27.552931900]   (Session info: chrome=121.0.6167.161)
+[2024-02-09T23:09:27.552931900] Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+[2024-02-09T23:09:27.552931900] System info: host: 'DESKTOP-FOKPJIU', ip: '192.168.29.213', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.7'
+[2024-02-09T23:09:27.552931900] Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+[2024-02-09T23:09:27.554204500] Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 121.0.6167.161, chrome: {chromedriverVersion: 121.0.6167.85 (3f98d690ad7e..., userDataDir: C:\Users\ANILKU~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:56890}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+[2024-02-09T23:09:27.559619800] Session ID: c65df2c3f11d0b180d6676de3db9d0d9
+[2024-02-09T23:09:27.559619800] 	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+[2024-02-09T23:09:27.559619800] 	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+[2024-02-09T23:09:27.559619800] 	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+[2024-02-09T23:09:27.559619800] 	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+[2024-02-09T23:09:27.559619800] 	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+[2024-02-09T23:09:27.559619800] 	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+[2024-02-09T23:09:27.559619800] 	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+[2024-02-09T23:09:27.559619800] 	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+[2024-02-09T23:09:27.559619800] 	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+[2024-02-09T23:09:27.559619800] 	at com.kms.katalon.selenium.driver.CChromeDriver.execute(CChromeDriver.java:19)
+[2024-02-09T23:09:27.559619800] 	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+[2024-02-09T23:09:27.559619800] 	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)
+[2024-02-09T23:09:27.559619800] 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+[2024-02-09T23:09:27.559619800] 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+[2024-02-09T23:09:27.559619800] 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+[2024-02-09T23:09:27.559619800] 	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.lambda$new$0(EventFiringWebDriver.java:404)
+[2024-02-09T23:09:27.559619800] 	at jdk.proxy2/jdk.proxy2.$Proxy27.click(Unknown Source)
+[2024-02-09T23:09:27.559619800] 	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.click(EventFiringWebDriver.java:417)
+[2024-02-09T23:09:27.559619800] 	at org.openqa.selenium.WebElement$click.call(Unknown Source)
+[2024-02-09T23:09:27.559619800] 	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.clickUntilSuccessWithTimeout(ClickKeyword.groovy:81)
+[2024-02-09T23:09:27.559619800] 	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.clickUntilSuccessWithTimeout(ClickKeyword.groovy)
+[2024-02-09T23:09:27.559619800] 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+[2024-02-09T23:09:27.559619800] 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+[2024-02-09T23:09:27.559619800] 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+[2024-02-09T23:09:27.559619800] 	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:67)
+[2024-02-09T23:09:27.559619800] 	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+[2024-02-09T23:09:27.559619800] 	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+[2024-02-09T23:09:27.559619800] 	... 25 more
+[2024-02-09T23:09:27.559619800] )
+[2024-02-09T23:09:27.575857700] 2024-02-09 23:09:27.567 ERROR c.k.k.core.context.internal.TestHooker   - ? com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/TC_Logout_OR/Page_Facebook/span_x4k7w5x x1h91t0o x1h9r5lt x1jfb8zj xv2_c8d3b2'
+[2024-02-09T23:09:27.577259100] 	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+[2024-02-09T23:09:27.577259100] 	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+[2024-02-09T23:09:27.577259100] 	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:74)
+[2024-02-09T23:09:27.577259100] 	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+[2024-02-09T23:09:27.578529100] 	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+[2024-02-09T23:09:27.578529100] 	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:659)
+[2024-02-09T23:09:27.579303100] 	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$1.call(Unknown Source)
+[2024-02-09T23:09:27.579303100] 	at Facebook_registration_logout_TL.sampleAfterTestCase(Facebook_registration_logout_TL.groovy:72)
+[2024-02-09T23:09:27.579303100] 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+[2024-02-09T23:09:27.579303100] 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+[2024-02-09T23:09:27.579303100] 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+[2024-02-09T23:09:27.579303100] 	at com.kms.katalon.core.context.internal.TestHooker.invokeMethod(TestHooker.java:111)
+[2024-02-09T23:09:27.579303100] 	at com.kms.katalon.core.context.internal.TestHooker.lambda$3(TestHooker.java:95)
+[2024-02-09T23:09:27.579303100] 	at com.kms.katalon.core.context.internal.TestHooker.invokeContextMethods(TestHooker.java:94)
+[2024-02-09T23:09:27.579303100] 	at com.kms.katalon.core.context.internal.TestListenerCollector.lambda$3(TestListenerCollector.java:88)
+[2024-02-09T23:09:27.579303100] 	at com.kms.katalon.core.context.internal.TestListenerCollector.handleListenerEvent(TestListenerCollector.java:85)
+[2024-02-09T23:09:27.579303100] 	at com.kms.katalon.core.context.internal.ExecutionEventManager.publicEvent(ExecutionEventManager.java:36)
+[2024-02-09T23:09:27.579602500] 	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:315)
+[2024-02-09T23:09:27.579602500] 	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+[2024-02-09T23:09:27.579602500] 	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+[2024-02-09T23:09:27.579602500] 	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+[2024-02-09T23:09:27.579602500] 	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+[2024-02-09T23:09:27.579602500] 	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+[2024-02-09T23:09:27.579602500] 	at TempTestSuite1707500320382.run(TempTestSuite1707500320382.groovy:36)
+[2024-02-09T23:09:27.579602500] 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+[2024-02-09T23:09:27.579602500] 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+[2024-02-09T23:09:27.579602500] 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+[2024-02-09T23:09:27.579602500] Caused by: org.openqa.selenium.ElementNotInteractableException: element not interactable
+[2024-02-09T23:09:27.579602500]   (Session info: chrome=121.0.6167.161)
+[2024-02-09T23:09:27.579602500] Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+[2024-02-09T23:09:27.579602500] System info: host: 'DESKTOP-FOKPJIU', ip: '192.168.29.213', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.7'
+[2024-02-09T23:09:27.579602500] Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+[2024-02-09T23:09:27.579602500] Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 121.0.6167.161, chrome: {chromedriverVersion: 121.0.6167.85 (3f98d690ad7e..., userDataDir: C:\Users\ANILKU~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:56890}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+[2024-02-09T23:09:27.580155100] Session ID: c65df2c3f11d0b180d6676de3db9d0d9
+[2024-02-09T23:09:27.580155100] 	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+[2024-02-09T23:09:27.580155100] 	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+[2024-02-09T23:09:27.580155100] 	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+[2024-02-09T23:09:27.580155100] 	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+[2024-02-09T23:09:27.580155100] 	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+[2024-02-09T23:09:27.580155100] 	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+[2024-02-09T23:09:27.581014] 	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+[2024-02-09T23:09:27.581014] 	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+[2024-02-09T23:09:27.581014] 	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+[2024-02-09T23:09:27.581014] 	at com.kms.katalon.selenium.driver.CChromeDriver.execute(CChromeDriver.java:19)
+[2024-02-09T23:09:27.581014] 	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+[2024-02-09T23:09:27.581014] 	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)
+[2024-02-09T23:09:27.581014] 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+[2024-02-09T23:09:27.581014] 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+[2024-02-09T23:09:27.581014] 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+[2024-02-09T23:09:27.581014] 	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.lambda$new$0(EventFiringWebDriver.java:404)
+[2024-02-09T23:09:27.581014] 	at jdk.proxy2/jdk.proxy2.$Proxy27.click(Unknown Source)
+[2024-02-09T23:09:27.581014] 	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.click(EventFiringWebDriver.java:417)
+[2024-02-09T23:09:27.581514400] 	at org.openqa.selenium.WebElement$click.call(Unknown Source)
+[2024-02-09T23:09:27.581514400] 	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.clickUntilSuccessWithTimeout(ClickKeyword.groovy:81)
+[2024-02-09T23:09:27.581514400] 	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.clickUntilSuccessWithTimeout(ClickKeyword.groovy)
+[2024-02-09T23:09:27.581514400] 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+[2024-02-09T23:09:27.582013100] 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+[2024-02-09T23:09:27.582013100] 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+[2024-02-09T23:09:27.582013100] 	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:67)
+[2024-02-09T23:09:27.582013100] 	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+[2024-02-09T23:09:27.582013100] 	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+[2024-02-09T23:09:27.582013100] 	... 25 more
+[2024-02-09T23:09:27.582013100] 
+[2024-02-09T23:09:27.597820300] 2024-02-09 23:09:27.596 INFO  c.k.katalon.core.main.TestCaseExecutor   - END Test Cases/Logout_test listener/TC_Logout_test listener
+[2024-02-09T23:09:27.600690500] 2024-02-09 23:09:27.599 INFO  c.k.katalon.core.main.TestCaseExecutor   - 
+[2024-02-09T23:09:27.602141] 2024-02-09 23:09:27.601 INFO  c.k.katalon.core.main.TestCaseExecutor   - ===================== Self-healing Report ====================
+[2024-02-09T23:09:27.603344] 2024-02-09 23:09:27.603 INFO  c.k.katalon.core.main.TestCaseExecutor   - One of the failed test object locators has been recovered by Self-healing. Please refer to the Self-healing Insights tab for more details.
+[2024-02-09T23:09:27.604595100] 2024-02-09 23:09:27.604 INFO  c.k.katalon.core.main.TestCaseExecutor   - To learn more about Self-healing, please read https://docs.katalon.com/katalon-studio/docs/self-healing.html
+[2024-02-09T23:09:27.606095500] 2024-02-09 23:09:27.605 INFO  c.k.katalon.core.main.TestCaseExecutor   - ==============================================================
+[2024-02-09T23:09:30.055386400] 2024-02-09 23:09:30.054 INFO  com.kms.katalon.core.util.KeywordUtil    - Start generating HTML report folder at: C:\Users\ANILKUMAR\git\SI-GuidedProject-705265-1704860256\Reports\20240209_230829\Logout_test listener_TS\TC_Logout_test listener_TS\20240209_230840...
+[2024-02-09T23:09:30.295400800] 2024-02-09 23:09:30.295 INFO  com.kms.katalon.core.util.KeywordUtil    - HTML report generated
+[2024-02-09T23:09:30.296401300] 2024-02-09 23:09:30.296 INFO  com.kms.katalon.core.util.KeywordUtil    - Start generating CSV report folder at: C:\Users\ANILKUMAR\git\SI-GuidedProject-705265-1704860256\Reports\20240209_230829\Logout_test listener_TS\TC_Logout_test listener_TS\20240209_230840...
+[2024-02-09T23:09:30.340750800] 2024-02-09 23:09:30.340 INFO  com.kms.katalon.core.util.KeywordUtil    - CSV report generated
+[2024-02-09T23:09:30.478757100] 2024-02-09 23:09:30.477 INFO  c.k.katalon.core.main.TestSuiteExecutor  - --------------------
+[2024-02-09T23:09:30.479794400] 2024-02-09 23:09:30.478 INFO  c.k.katalon.core.main.TestSuiteExecutor  - END Test Suites/Logout_test listener_TS/TC_Logout_test listener_TS
+[2024-02-09T23:09:30.480290500] 2024-02-09 23:09:30.478 INFO  c.k.katalon.core.main.TestSuiteExecutor  - ====================
+[2024-02-09T23:09:30.487793200] Launcher status after execution process completed: Running
+[2024-02-09T23:09:30.998508700] Start writing execution.uuid file to folder: C:\Users\ANILKUMAR\git\SI-GuidedProject-705265-1704860256\Reports\20240209_230829\Logout_test listener_TS\TC_Logout_test listener_TS\20240209_230840
+[2024-02-09T23:09:31.000496500] Start generating JUnit report folder at: C:\Users\ANILKUMAR\git\SI-GuidedProject-705265-1704860256\Reports\20240209_230829\Logout_test listener_TS\TC_Logout_test listener_TS\20240209_230840...
+[2024-02-09T23:09:31.222652600] JUnit report were generated at folder: C:\Users\ANILKUMAR\git\SI-GuidedProject-705265-1704860256\Reports\20240209_230829\Logout_test listener_TS\TC_Logout_test listener_TS\20240209_230840
+[2024-02-09T23:09:31.237952100] For real-time monitoring and better reporting capabilities please integrate this project with Katalon TestOps (more details at https://docs.katalon.com/katalon-analytics/docs/integration-with-katalon-studio.html#enable-integration)
+[2024-02-09T23:09:31.270617200] For real-time monitoring and better reporting capabilities please integrate this project with Katalon TestOps (more details at https://docs.katalon.com/katalon-analytics/docs/integration-with-katalon-studio.html#enable-integration)
+[2024-02-09T23:09:41.082997800] 
+[2024-02-09T23:09:41.083996900] --------------------------------------------------------------------------------
+[2024-02-09T23:09:41.083996900] Test Suites/Logout_test listener_TS/TC_Logout_test listener_TS - Chrome - 202402
+[2024-02-09T23:09:41.083996900] 09_230840..............................................................1/1(100%)
+[2024-02-09T23:09:41.083996900] --------------------------------------------------------------------------------
+[2024-02-09T23:09:41.084282500] 
+[2024-02-09T23:09:41.088644700] Execution completed. Exit code: 0.
+[2024-02-09T23:09:41.091645300] Start clean up session
+[2024-02-09T23:09:41.092639800] End check license task
+[2024-02-09T23:09:41.094644600] End clean up session
+[2024-02-09T23:09:41.095642700] Start release license task
+[2024-02-09T23:09:42.090630800] License released
+[2024-02-09T23:09:42.092158300] End release license task
+[2024-02-09T23:09:42.096666] All launchers terminated
+[2024-02-09T23:09:43.883183800] Finished executing cmd /c C:\Users\ANILKUMAR\.katalon\9.1.0\Katalon_Studio_Engine_Windows_64-9.1.0\katalonc.exe katalonc -noSplash -runMode=console -projectPath="C:\Users\ANILKUMAR\git\SI-GuidedProject-705265-1704860256\FACEBOOK-project.prj" -retry=0 -testSuitePath="Test Suites/Logout_test listener_TS/TC_Logout_test listener_TS" -browserType="Chrome" -executionProfile="default" -apiKey="bc73b42f-b38f-438d-9d89-e38491530c80" --config -proxy.auth.option=NO_PROXY -proxy.system.option=NO_PROXY -proxy.system.applyToDesiredCapabilities=true -webui.autoUpdateDrivers=true . Exit code: 0.
+Finished: SUCCESS

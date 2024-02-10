@@ -1,0 +1,608 @@
+Started by user CHELIMILLA VENKATA ANIL KUMAR
+Running as SYSTEM
+Building in workspace C:\Users\ANILKUMAR\.jenkins\workspace\Facebook_registration
+[2024-02-08T18:38:30.698120500] Katalon Studio package has been downloaded already.
+[2024-02-08T18:38:30.702137800] Using Katalon Studio at C:\Users\ANILKUMAR\.katalon\9.1.0\Katalon_Studio_Engine_Windows_64-9.1.0
+[2024-02-08T18:38:31.373124300] Making driver executables...
+[2024-02-08T18:38:31.373124300] Drivers folder at: C:\Users\ANILKUMAR\.katalon\9.1.0\Katalon_Studio_Engine_Windows_64-9.1.0\configuration\resources\drivers
+[2024-02-08T18:38:31.381036700] Set chromedriver.exe as executable !
+[2024-02-08T18:38:31.381036700] Set LICENSE.chromedriver as executable !
+[2024-02-08T18:38:31.384556400] Set credits.html as executable !
+[2024-02-08T18:38:31.385681200] Set EULA as executable !
+[2024-02-08T18:38:31.385681200] Set LICENSE as executable !
+[2024-02-08T18:38:31.385681200] Set msedgedriver.exe as executable !
+[2024-02-08T18:38:31.387120500] Set MicrosoftWebDriver.exe as executable !
+[2024-02-08T18:38:31.387778500] Set geckodriver.exe as executable !
+[2024-02-08T18:38:31.388913900] Set resolution.properties as executable !
+[2024-02-08T18:38:31.390520300] Set IEDriverServer.exe as executable !
+[2024-02-08T18:38:31.397911900] Execute [cmd, /c, C:\Users\ANILKUMAR\.katalon\9.1.0\Katalon_Studio_Engine_Windows_64-9.1.0\katalonc.exe katalonc -noSplash -runMode=console -projectPath="C:\Users\ANILKUMAR\Katalon Studio\Facebook Application Testing\Facebook Application Testing.prj" -retry=0 -testSuitePath="Test Suites/TC_Facebook_registartion_TS/TC_Facebook_registration_001_TS" -browserType="Chrome" -executionProfile="default" -apiKey="bc73b42f-b38f-438d-9d89-e38491530c80" --config -proxy.auth.option=NO_PROXY -proxy.system.option=NO_PROXY -proxy.system.applyToDesiredCapabilities=true -webui.autoUpdateDrivers=true ] in C:\Users\ANILKU~1\AppData\Local\Temp\katalon-11680600808323412750
+[2024-02-08T18:38:33.813446300] Katalon workspace folder is set to default location: C:\Users\ANILKU~1\AppData\Local\Temp\session-dea9c259
+[2024-02-08T18:38:34.158535800] Starting Groovy-Eclipse compiler resolver. Specified compiler level: unspecified
+[2024-02-08T18:38:34.159810400] 167 org.codehaus.groovy_3.0.17.v202303311542-e2303 ACTIVE
+[2024-02-08T18:38:34.644806] Activating...
+[2024-02-08T18:38:34.649735200] Start getting machine ID on Windows
+[2024-02-08T18:38:34.722082600] Start appending additional signatures
+[2024-02-08T18:38:34.910065400] hardwareSerialNumber 82y4l73
+[2024-02-08T18:38:34.910643200] osDependentUsername anilkumar
+[2024-02-08T18:38:34.910643200] End appending additional signatures b64c00d2-285a-4683-b7e0-cb657aab8154__anilkumar
+[2024-02-08T18:38:34.911662500] End getting machine ID on Windows 7be2a62189f456be802a081e7c78fef6
+[2024-02-08T18:38:34.918661800] Start activating offline...
+[2024-02-08T18:38:34.920662500] Search for valid offline licenses in folder: C:\Users\ANILKUMAR\.katalon\license
+[2024-02-08T18:38:34.923663400] The number of valid offline licenses: 0
+[2024-02-08T18:38:36.202567300] Start activating online...
+[2024-02-08T18:38:40.608978200] Activated successfully with Katalon Runtime Engine license. 
+[2024-02-08T18:38:40.610973900] Activated successfully with TestCloud license. 
+[2024-02-08T18:38:40.620006400] 
+[2024-02-08T18:38:40.621003300] 
+[2024-02-08T18:38:40.622003500] INFO: Katalon Version: 9.1.0
+[2024-02-08T18:38:40.627035700] INFO: Command-line arguments: katalonc -runMode=console -projectPath=C:\Users\ANILKUMAR\Katalon Studio\Facebook Application Testing\Facebook Application Testing.prj -retry=0 -testSuitePath=Test Suites/TC_Facebook_registartion_TS/TC_Facebook_registration_001_TS -browserType=Chrome -executionProfile=default -apiKey=******** --config -proxy.auth.option=NO_PROXY -proxy.system.option=NO_PROXY -proxy.system.applyToDesiredCapabilities=true -webui.autoUpdateDrivers=true
+[2024-02-08T18:38:40.629211400] INFO: User working dir: C:\Users\ANILKU~1\AppData\Local\Temp\katalon-11680600808323412750
+[2024-02-08T18:38:40.629710100] INFO: Error log: C:/Users/ANILKUMAR/AppData/Local/Temp/session-dea9c259/.metadata/.log
+[2024-02-08T18:38:40.631066800] INFO: Katalon KatOne server URL: https://admin.katalon.com
+[2024-02-08T18:38:40.633622700] INFO: Katalon TestOps server URL: https://testops.katalon.io
+[2024-02-08T18:38:40.635621300] INFO: Katalon Store server URL: https://store.katalon.com
+[2024-02-08T18:38:40.637689900] INFO: User home: C:\Users\ANILKUMAR
+[2024-02-08T18:38:40.639627] INFO: Java vendor: Eclipse Adoptium
+[2024-02-08T18:38:40.641628700] INFO: Java version: 17.0.7
+[2024-02-08T18:38:40.642682500] INFO: Local OS: Windows 10 64bit
+[2024-02-08T18:38:41.491525300] INFO: CPU load: 9%
+[2024-02-08T18:38:41.494516] INFO: Total memory: 3818 MB
+[2024-02-08T18:38:41.495445300] INFO: Free memory: 228 MB
+[2024-02-08T18:38:41.499391400] INFO: Machine ID: 7be2a62189f456be802a081e7c78fef6
+[2024-02-08T18:38:41.500653700] 
+[2024-02-08T18:38:41.501653800] 
+[2024-02-08T18:38:41.510636600] Delete folder: bin
+[2024-02-08T18:38:41.565283500] Delete folder: Libs
+[2024-02-08T18:38:41.651560] Cleaning up workspace
+[2024-02-08T18:38:41.652991200] Opening project file: C:\Users\ANILKUMAR\Katalon Studio\Facebook Application Testing\Facebook Application Testing.prj
+[2024-02-08T18:38:47.121439900] Generating global variables...
+[2024-02-08T18:38:48.439819900] Project 'Facebook Application Testing' opened
+[2024-02-08T18:38:48.492046700] Start reloading plugins...
+[2024-02-08T18:38:49.835808200] Katalon version: 9.1.0
+[2024-02-08T18:38:49.835808200] Plugin info URL: https://store.katalon.com/api/products/ks?appVersion=9.1.0&appType=ENGINE&licenseType=TRIAL
+[2024-02-08T18:38:51.968814100] Start checking license task
+[2024-02-08T18:39:00.058821700] Chrome driver is located at: C:\Users\ANILKUMAR\.katalon\9.1.0\Katalon_Studio_Engine_Windows_64-9.1.0\configuration\resources\temp\webdriver\chromedriver.exe
+[2024-02-08T18:39:09.893665300] INFO: KATALON_JAVA_HOME: null
+[2024-02-08T18:39:09.968146300] 
+[2024-02-08T18:39:09.968647100] --------------------------------------------------------------------------------
+[2024-02-08T18:39:09.968647100] Test Suites/TC_Facebook_registartion_TS/TC_Facebook_registration_001_TS - Chrome
+[2024-02-08T18:39:09.968647100]  - 20240208_183904.......................................................0/1(0%)
+[2024-02-08T18:39:09.968647100] --------------------------------------------------------------------------------
+[2024-02-08T18:39:09.968647100] 
+[2024-02-08T18:39:14.714402600] 2024-02-08 18:39:14.701 INFO  c.k.katalon.core.main.TestSuiteExecutor  - START Test Suites/TC_Facebook_registartion_TS/TC_Facebook_registration_001_TS
+[2024-02-08T18:39:14.767513800] 2024-02-08 18:39:14.765 INFO  c.k.katalon.core.main.TestSuiteExecutor  - hostName = ANILKUMAR - DESKTOP-FOKPJIU
+[2024-02-08T18:39:14.770001400] 2024-02-08 18:39:14.770 INFO  c.k.katalon.core.main.TestSuiteExecutor  - os = Windows 10 64bit
+[2024-02-08T18:39:14.770673300] 2024-02-08 18:39:14.770 INFO  c.k.katalon.core.main.TestSuiteExecutor  - hostAddress = 192.168.29.213
+[2024-02-08T18:39:14.771056500] 2024-02-08 18:39:14.771 INFO  c.k.katalon.core.main.TestSuiteExecutor  - katalonVersion = 9.1.0.212
+[2024-02-08T18:39:14.958396800] 2024-02-08 18:39:14.957 INFO  c.k.katalon.core.main.TestCaseExecutor   - --------------------
+[2024-02-08T18:39:14.958396800] 2024-02-08 18:39:14.957 INFO  c.k.katalon.core.main.TestCaseExecutor   - START Test Cases/Facebook_registration/TC_Facebook_registration_001
+[2024-02-08T18:39:15.390722300] 2024-02-08 18:39:15.389 WARN  c.k.k.c.webui.common.WebUiCommonHelper   - [SELF-HEALING] Failed to find element with id 'Object Repository/TC_Facebook_Test Listener_OR/Page_Facebook  log in or sign up/input_email'. Try using Self-healing.
+[2024-02-08T18:39:15.422341600] 2024-02-08 18:39:15.422 WARN  c.k.k.c.webui.common.WebUiCommonHelper   - [SELF-HEALING] Browser is not opened
+[2024-02-08T18:39:15.422341600] Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+[2024-02-08T18:39:15.422341600] System info: host: 'DESKTOP-FOKPJIU', ip: '192.168.29.213', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.7'
+[2024-02-08T18:39:15.422341600] Driver info: driver.version: unknown
+[2024-02-08T18:39:15.426757400] 2024-02-08 18:39:15.425 WARN  c.k.k.c.webui.common.WebUiCommonHelper   - [SELF-HEALING] Browser is not opened
+[2024-02-08T18:39:15.426757400] Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+[2024-02-08T18:39:15.426757400] System info: host: 'DESKTOP-FOKPJIU', ip: '192.168.29.213', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.7'
+[2024-02-08T18:39:15.426757400] Driver info: driver.version: unknown
+[2024-02-08T18:39:15.430217200] 2024-02-08 18:39:15.429 WARN  c.k.k.c.webui.common.WebUiCommonHelper   - [SELF-HEALING] Browser is not opened
+[2024-02-08T18:39:15.430424300] Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+[2024-02-08T18:39:15.430424300] System info: host: 'DESKTOP-FOKPJIU', ip: '192.168.29.213', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.7'
+[2024-02-08T18:39:15.430424300] Driver info: driver.version: unknown
+[2024-02-08T18:39:15.435482500] 2024-02-08 18:39:15.433 WARN  c.k.k.c.webui.common.WebUiCommonHelper   - [SELF-HEALING] Browser is not opened
+[2024-02-08T18:39:15.435482500] Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+[2024-02-08T18:39:15.435482500] System info: host: 'DESKTOP-FOKPJIU', ip: '192.168.29.213', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.7'
+[2024-02-08T18:39:15.435982600] Driver info: driver.version: unknown
+[2024-02-08T18:39:15.451145900] 2024-02-08 18:39:15.450 WARN  c.k.k.c.w.h.s.WebUIScreenCaptor          - Cannot take screenshot
+[2024-02-08T18:39:15.472226900] 2024-02-08 18:39:15.470 ERROR c.k.k.core.keyword.internal.KeywordMain  - ? Unable to set text 'ch.anil9b@gmail.com' of object 'Object Repository/TC_Facebook_Test Listener_OR/Page_Facebook  log in or sign up/input_email' (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to set text 'ch.anil9b@gmail.com' of object 'Object Repository/TC_Facebook_Test Listener_OR/Page_Facebook  log in or sign up/input_email'
+[2024-02-08T18:39:15.472226900] 	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+[2024-02-08T18:39:15.472226900] 	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+[2024-02-08T18:39:15.472725200] 	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.setText(SetTextKeyword.groovy:66)
+[2024-02-08T18:39:15.472725200] 	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.execute(SetTextKeyword.groovy:37)
+[2024-02-08T18:39:15.472725200] 	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+[2024-02-08T18:39:15.472725200] 	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.setText(WebUiBuiltInKeywords.groovy:1019)
+[2024-02-08T18:39:15.472725200] 	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$setText.call(Unknown Source)
+[2024-02-08T18:39:15.472725200] 	at Facebook_logout_TL.sampleBeforeTestCase(Facebook_logout_TL.groovy:33)
+[2024-02-08T18:39:15.472725200] 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+[2024-02-08T18:39:15.472725200] 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+[2024-02-08T18:39:15.472725200] 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+[2024-02-08T18:39:15.472725200] 	at com.kms.katalon.core.context.internal.TestHooker.invokeMethod(TestHooker.java:111)
+[2024-02-08T18:39:15.472725200] 	at com.kms.katalon.core.context.internal.TestHooker.lambda$3(TestHooker.java:95)
+[2024-02-08T18:39:15.472725200] 	at com.kms.katalon.core.context.internal.TestHooker.invokeContextMethods(TestHooker.java:94)
+[2024-02-08T18:39:15.474271800] 	at com.kms.katalon.core.context.internal.TestListenerCollector.lambda$3(TestListenerCollector.java:88)
+[2024-02-08T18:39:15.474271800] 	at com.kms.katalon.core.context.internal.TestListenerCollector.handleListenerEvent(TestListenerCollector.java:85)
+[2024-02-08T18:39:15.474271800] 	at com.kms.katalon.core.context.internal.ExecutionEventManager.publicEvent(ExecutionEventManager.java:36)
+[2024-02-08T18:39:15.474271800] 	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:268)
+[2024-02-08T18:39:15.474271800] 	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+[2024-02-08T18:39:15.474271800] 	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+[2024-02-08T18:39:15.474271800] 	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+[2024-02-08T18:39:15.474271800] 	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+[2024-02-08T18:39:15.474271800] 	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+[2024-02-08T18:39:15.474271800] 	at TempTestSuite1707397744223.run(TempTestSuite1707397744223.groovy:36)
+[2024-02-08T18:39:15.474271800] 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+[2024-02-08T18:39:15.474271800] 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+[2024-02-08T18:39:15.474772300] 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+[2024-02-08T18:39:15.474772300] Caused by: com.kms.katalon.core.webui.exception.BrowserNotOpenedException: Browser is not opened
+[2024-02-08T18:39:15.474772300] Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+[2024-02-08T18:39:15.474772300] System info: host: 'DESKTOP-FOKPJIU', ip: '192.168.29.213', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.7'
+[2024-02-08T18:39:15.474772300] Driver info: driver.version: unknown
+[2024-02-08T18:39:15.474772300] 	at com.kms.katalon.core.webui.driver.DriverFactory.verifyWebDriverIsOpen(DriverFactory.java:1014)
+[2024-02-08T18:39:15.474772300] 	at com.kms.katalon.core.webui.driver.DriverFactory.verifyWebDriver(DriverFactory.java:999)
+[2024-02-08T18:39:15.474772300] 	at com.kms.katalon.core.webui.driver.DriverFactory.getWebDriver(DriverFactory.java:985)
+[2024-02-08T18:39:15.475287500] 	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findElementByNormalMethods(WebUiCommonHelper.java:1009)
+[2024-02-08T18:39:15.475287500] 	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findElementsBySelectedMethod(WebUiCommonHelper.java:915)
+[2024-02-08T18:39:15.475287500] 	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findElementsBySelectedMethod(WebUiCommonHelper.java:897)
+[2024-02-08T18:39:15.475287500] 	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findElementsBySelectedMethod(WebUiCommonHelper.java:892)
+[2024-02-08T18:39:15.475287500] 	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findElementsByDefault(WebUiCommonHelper.java:888)
+[2024-02-08T18:39:15.475287500] 	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findElementsWithSelfHealing(WebUiCommonHelper.java:734)
+[2024-02-08T18:39:15.475287500] 	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElements(WebUiCommonHelper.java:718)
+[2024-02-08T18:39:15.475287500] 	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1374)
+[2024-02-08T18:39:15.475287500] 	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+[2024-02-08T18:39:15.475287500] 	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:26)
+[2024-02-08T18:39:15.475287500] 	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword$_setText_closure1.doCall(SetTextKeyword.groovy:51)
+[2024-02-08T18:39:15.475287500] 	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword$_setText_closure1.call(SetTextKeyword.groovy)
+[2024-02-08T18:39:15.475287500] 	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+[2024-02-08T18:39:15.475287500] 	... 25 more
+[2024-02-08T18:39:15.475287500] )
+[2024-02-08T18:39:15.478256200] 2024-02-08 18:39:15.478 ERROR c.k.k.core.context.internal.TestHooker   - ? com.kms.katalon.core.exception.StepFailedException: Unable to set text 'ch.anil9b@gmail.com' of object 'Object Repository/TC_Facebook_Test Listener_OR/Page_Facebook  log in or sign up/input_email'
+[2024-02-08T18:39:15.479256] 	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+[2024-02-08T18:39:15.479256] 	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+[2024-02-08T18:39:15.479256] 	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.setText(SetTextKeyword.groovy:66)
+[2024-02-08T18:39:15.479256] 	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.execute(SetTextKeyword.groovy:37)
+[2024-02-08T18:39:15.479256] 	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+[2024-02-08T18:39:15.479256] 	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.setText(WebUiBuiltInKeywords.groovy:1019)
+[2024-02-08T18:39:15.479755900] 	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$setText.call(Unknown Source)
+[2024-02-08T18:39:15.479755900] 	at Facebook_logout_TL.sampleBeforeTestCase(Facebook_logout_TL.groovy:33)
+[2024-02-08T18:39:15.481311] 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+[2024-02-08T18:39:15.481311] 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+[2024-02-08T18:39:15.481311] 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+[2024-02-08T18:39:15.481311] 	at com.kms.katalon.core.context.internal.TestHooker.invokeMethod(TestHooker.java:111)
+[2024-02-08T18:39:15.481311] 	at com.kms.katalon.core.context.internal.TestHooker.lambda$3(TestHooker.java:95)
+[2024-02-08T18:39:15.481985700] 	at com.kms.katalon.core.context.internal.TestHooker.invokeContextMethods(TestHooker.java:94)
+[2024-02-08T18:39:15.481985700] 	at com.kms.katalon.core.context.internal.TestListenerCollector.lambda$3(TestListenerCollector.java:88)
+[2024-02-08T18:39:15.481985700] 	at com.kms.katalon.core.context.internal.TestListenerCollector.handleListenerEvent(TestListenerCollector.java:85)
+[2024-02-08T18:39:15.481985700] 	at com.kms.katalon.core.context.internal.ExecutionEventManager.publicEvent(ExecutionEventManager.java:36)
+[2024-02-08T18:39:15.481985700] 	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:268)
+[2024-02-08T18:39:15.481985700] 	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+[2024-02-08T18:39:15.481985700] 	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+[2024-02-08T18:39:15.483363] 	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+[2024-02-08T18:39:15.483363] 	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+[2024-02-08T18:39:15.483363] 	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+[2024-02-08T18:39:15.483363] 	at TempTestSuite1707397744223.run(TempTestSuite1707397744223.groovy:36)
+[2024-02-08T18:39:15.483363] 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+[2024-02-08T18:39:15.483363] 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+[2024-02-08T18:39:15.483363] 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+[2024-02-08T18:39:15.483363] Caused by: com.kms.katalon.core.webui.exception.BrowserNotOpenedException: Browser is not opened
+[2024-02-08T18:39:15.483363] Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+[2024-02-08T18:39:15.483363] System info: host: 'DESKTOP-FOKPJIU', ip: '192.168.29.213', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.7'
+[2024-02-08T18:39:15.483363] Driver info: driver.version: unknown
+[2024-02-08T18:39:15.483363] 	at com.kms.katalon.core.webui.driver.DriverFactory.verifyWebDriverIsOpen(DriverFactory.java:1014)
+[2024-02-08T18:39:15.483363] 	at com.kms.katalon.core.webui.driver.DriverFactory.verifyWebDriver(DriverFactory.java:999)
+[2024-02-08T18:39:15.483363] 	at com.kms.katalon.core.webui.driver.DriverFactory.getWebDriver(DriverFactory.java:985)
+[2024-02-08T18:39:15.483363] 	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findElementByNormalMethods(WebUiCommonHelper.java:1009)
+[2024-02-08T18:39:15.483363] 	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findElementsBySelectedMethod(WebUiCommonHelper.java:915)
+[2024-02-08T18:39:15.483363] 	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findElementsBySelectedMethod(WebUiCommonHelper.java:897)
+[2024-02-08T18:39:15.483363] 	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findElementsBySelectedMethod(WebUiCommonHelper.java:892)
+[2024-02-08T18:39:15.483363] 	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findElementsByDefault(WebUiCommonHelper.java:888)
+[2024-02-08T18:39:15.483862800] 	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findElementsWithSelfHealing(WebUiCommonHelper.java:734)
+[2024-02-08T18:39:15.483862800] 	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElements(WebUiCommonHelper.java:718)
+[2024-02-08T18:39:15.485821100] 	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1374)
+[2024-02-08T18:39:15.485821100] 	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+[2024-02-08T18:39:15.485821100] 	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:26)
+[2024-02-08T18:39:15.485821100] 	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword$_setText_closure1.doCall(SetTextKeyword.groovy:51)
+[2024-02-08T18:39:15.486321600] 	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword$_setText_closure1.call(SetTextKeyword.groovy)
+[2024-02-08T18:39:15.486321600] 	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+[2024-02-08T18:39:15.486321600] 	... 25 more
+[2024-02-08T18:39:15.486321600] 
+[2024-02-08T18:39:15.556809800] 2024-02-08 18:39:15.556 WARN  c.k.k.c.webui.common.WebUiCommonHelper   - [SELF-HEALING] Failed to find element with id 'Object Repository/TC_Facebook_registration_logout_TL_OR/Page_Facebook  log in or sign up/a_Create new account'. Try using Self-healing.
+[2024-02-08T18:39:15.559658200] 2024-02-08 18:39:15.559 WARN  c.k.k.c.webui.common.WebUiCommonHelper   - [SELF-HEALING] Browser is not opened
+[2024-02-08T18:39:15.560153100] Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+[2024-02-08T18:39:15.560153100] System info: host: 'DESKTOP-FOKPJIU', ip: '192.168.29.213', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.7'
+[2024-02-08T18:39:15.560153100] Driver info: driver.version: unknown
+[2024-02-08T18:39:15.562003400] 2024-02-08 18:39:15.562 WARN  c.k.k.c.webui.common.WebUiCommonHelper   - [SELF-HEALING] Browser is not opened
+[2024-02-08T18:39:15.562003400] Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+[2024-02-08T18:39:15.562003400] System info: host: 'DESKTOP-FOKPJIU', ip: '192.168.29.213', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.7'
+[2024-02-08T18:39:15.562902800] Driver info: driver.version: unknown
+[2024-02-08T18:39:15.567674900] 2024-02-08 18:39:15.566 WARN  c.k.k.c.webui.common.WebUiCommonHelper   - [SELF-HEALING] Browser is not opened
+[2024-02-08T18:39:15.567674900] Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+[2024-02-08T18:39:15.567674900] System info: host: 'DESKTOP-FOKPJIU', ip: '192.168.29.213', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.7'
+[2024-02-08T18:39:15.567674900] Driver info: driver.version: unknown
+[2024-02-08T18:39:15.573011700] 2024-02-08 18:39:15.572 WARN  c.k.k.c.w.h.s.WebUIScreenCaptor          - Cannot take screenshot
+[2024-02-08T18:39:15.578471400] 2024-02-08 18:39:15.576 ERROR c.k.k.core.keyword.internal.KeywordMain  - ? Unable to click on object 'Object Repository/TC_Facebook_registration_logout_TL_OR/Page_Facebook  log in or sign up/a_Create new account' (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/TC_Facebook_registration_logout_TL_OR/Page_Facebook  log in or sign up/a_Create new account'
+[2024-02-08T18:39:15.579222900] 	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+[2024-02-08T18:39:15.579222900] 	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+[2024-02-08T18:39:15.579222900] 	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:74)
+[2024-02-08T18:39:15.579222900] 	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+[2024-02-08T18:39:15.579222900] 	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+[2024-02-08T18:39:15.579222900] 	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:659)
+[2024-02-08T18:39:15.579222900] 	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$0.call(Unknown Source)
+[2024-02-08T18:39:15.579222900] 	at Facebook_registration_logout_TL.sampleBeforeTestCase(Facebook_registration_logout_TL.groovy:32)
+[2024-02-08T18:39:15.579222900] 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+[2024-02-08T18:39:15.579222900] 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+[2024-02-08T18:39:15.579222900] 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+[2024-02-08T18:39:15.579222900] 	at com.kms.katalon.core.context.internal.TestHooker.invokeMethod(TestHooker.java:111)
+[2024-02-08T18:39:15.579222900] 	at com.kms.katalon.core.context.internal.TestHooker.lambda$3(TestHooker.java:95)
+[2024-02-08T18:39:15.579222900] 	at com.kms.katalon.core.context.internal.TestHooker.invokeContextMethods(TestHooker.java:94)
+[2024-02-08T18:39:15.579222900] 	at com.kms.katalon.core.context.internal.TestListenerCollector.lambda$3(TestListenerCollector.java:88)
+[2024-02-08T18:39:15.579222900] 	at com.kms.katalon.core.context.internal.TestListenerCollector.handleListenerEvent(TestListenerCollector.java:85)
+[2024-02-08T18:39:15.579222900] 	at com.kms.katalon.core.context.internal.ExecutionEventManager.publicEvent(ExecutionEventManager.java:36)
+[2024-02-08T18:39:15.579222900] 	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:268)
+[2024-02-08T18:39:15.579222900] 	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+[2024-02-08T18:39:15.579222900] 	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+[2024-02-08T18:39:15.579222900] 	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+[2024-02-08T18:39:15.579222900] 	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+[2024-02-08T18:39:15.579222900] 	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+[2024-02-08T18:39:15.579222900] 	at TempTestSuite1707397744223.run(TempTestSuite1707397744223.groovy:36)
+[2024-02-08T18:39:15.579222900] 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+[2024-02-08T18:39:15.579222900] 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+[2024-02-08T18:39:15.579723200] 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+[2024-02-08T18:39:15.579723200] Caused by: com.kms.katalon.core.webui.exception.BrowserNotOpenedException: Browser is not opened
+[2024-02-08T18:39:15.579723200] Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+[2024-02-08T18:39:15.579723200] System info: host: 'DESKTOP-FOKPJIU', ip: '192.168.29.213', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.7'
+[2024-02-08T18:39:15.579723200] Driver info: driver.version: unknown
+[2024-02-08T18:39:15.579723200] 	at com.kms.katalon.core.webui.driver.DriverFactory.verifyWebDriverIsOpen(DriverFactory.java:1014)
+[2024-02-08T18:39:15.579723200] 	at com.kms.katalon.core.webui.driver.DriverFactory.verifyWebDriver(DriverFactory.java:999)
+[2024-02-08T18:39:15.579723200] 	at com.kms.katalon.core.webui.driver.DriverFactory.getWebDriver(DriverFactory.java:985)
+[2024-02-08T18:39:15.579723200] 	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findElementsByImage(WebUiCommonHelper.java:1101)
+[2024-02-08T18:39:15.579723200] 	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findElementsBySelectedMethod(WebUiCommonHelper.java:917)
+[2024-02-08T18:39:15.579723200] 	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findElementsBySelectedMethod(WebUiCommonHelper.java:897)
+[2024-02-08T18:39:15.579723200] 	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findElementsBySelectedMethod(WebUiCommonHelper.java:892)
+[2024-02-08T18:39:15.579723200] 	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findElementsByDefault(WebUiCommonHelper.java:888)
+[2024-02-08T18:39:15.579723200] 	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findElementsWithSelfHealing(WebUiCommonHelper.java:734)
+[2024-02-08T18:39:15.579723200] 	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElements(WebUiCommonHelper.java:718)
+[2024-02-08T18:39:15.579723200] 	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1374)
+[2024-02-08T18:39:15.579723200] 	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+[2024-02-08T18:39:15.579723200] 	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:65)
+[2024-02-08T18:39:15.579723200] 	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+[2024-02-08T18:39:15.579723200] 	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+[2024-02-08T18:39:15.579723200] 	... 25 more
+[2024-02-08T18:39:15.580362400] )
+[2024-02-08T18:39:15.584906900] 2024-02-08 18:39:15.583 ERROR c.k.k.core.context.internal.TestHooker   - ? com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/TC_Facebook_registration_logout_TL_OR/Page_Facebook  log in or sign up/a_Create new account'
+[2024-02-08T18:39:15.584906900] 	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+[2024-02-08T18:39:15.584906900] 	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+[2024-02-08T18:39:15.584906900] 	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:74)
+[2024-02-08T18:39:15.584906900] 	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+[2024-02-08T18:39:15.584906900] 	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+[2024-02-08T18:39:15.584906900] 	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:659)
+[2024-02-08T18:39:15.585403900] 	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$0.call(Unknown Source)
+[2024-02-08T18:39:15.585403900] 	at Facebook_registration_logout_TL.sampleBeforeTestCase(Facebook_registration_logout_TL.groovy:32)
+[2024-02-08T18:39:15.585403900] 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+[2024-02-08T18:39:15.585403900] 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+[2024-02-08T18:39:15.585403900] 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+[2024-02-08T18:39:15.585403900] 	at com.kms.katalon.core.context.internal.TestHooker.invokeMethod(TestHooker.java:111)
+[2024-02-08T18:39:15.585403900] 	at com.kms.katalon.core.context.internal.TestHooker.lambda$3(TestHooker.java:95)
+[2024-02-08T18:39:15.585403900] 	at com.kms.katalon.core.context.internal.TestHooker.invokeContextMethods(TestHooker.java:94)
+[2024-02-08T18:39:15.585403900] 	at com.kms.katalon.core.context.internal.TestListenerCollector.lambda$3(TestListenerCollector.java:88)
+[2024-02-08T18:39:15.585403900] 	at com.kms.katalon.core.context.internal.TestListenerCollector.handleListenerEvent(TestListenerCollector.java:85)
+[2024-02-08T18:39:15.586405100] 	at com.kms.katalon.core.context.internal.ExecutionEventManager.publicEvent(ExecutionEventManager.java:36)
+[2024-02-08T18:39:15.586405100] 	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:268)
+[2024-02-08T18:39:15.586405100] 	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+[2024-02-08T18:39:15.586405100] 	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+[2024-02-08T18:39:15.586405100] 	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+[2024-02-08T18:39:15.586405100] 	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+[2024-02-08T18:39:15.586405100] 	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+[2024-02-08T18:39:15.586405100] 	at TempTestSuite1707397744223.run(TempTestSuite1707397744223.groovy:36)
+[2024-02-08T18:39:15.586405100] 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+[2024-02-08T18:39:15.586405100] 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+[2024-02-08T18:39:15.586405100] 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+[2024-02-08T18:39:15.586405100] Caused by: com.kms.katalon.core.webui.exception.BrowserNotOpenedException: Browser is not opened
+[2024-02-08T18:39:15.586405100] Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+[2024-02-08T18:39:15.586405100] System info: host: 'DESKTOP-FOKPJIU', ip: '192.168.29.213', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.7'
+[2024-02-08T18:39:15.586405100] Driver info: driver.version: unknown
+[2024-02-08T18:39:15.586405100] 	at com.kms.katalon.core.webui.driver.DriverFactory.verifyWebDriverIsOpen(DriverFactory.java:1014)
+[2024-02-08T18:39:15.586405100] 	at com.kms.katalon.core.webui.driver.DriverFactory.verifyWebDriver(DriverFactory.java:999)
+[2024-02-08T18:39:15.586903400] 	at com.kms.katalon.core.webui.driver.DriverFactory.getWebDriver(DriverFactory.java:985)
+[2024-02-08T18:39:15.586903400] 	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findElementsByImage(WebUiCommonHelper.java:1101)
+[2024-02-08T18:39:15.586903400] 	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findElementsBySelectedMethod(WebUiCommonHelper.java:917)
+[2024-02-08T18:39:15.586903400] 	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findElementsBySelectedMethod(WebUiCommonHelper.java:897)
+[2024-02-08T18:39:15.586903400] 	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findElementsBySelectedMethod(WebUiCommonHelper.java:892)
+[2024-02-08T18:39:15.586903400] 	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findElementsByDefault(WebUiCommonHelper.java:888)
+[2024-02-08T18:39:15.586903400] 	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findElementsWithSelfHealing(WebUiCommonHelper.java:734)
+[2024-02-08T18:39:15.586903400] 	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElements(WebUiCommonHelper.java:718)
+[2024-02-08T18:39:15.586903400] 	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1374)
+[2024-02-08T18:39:15.586903400] 	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+[2024-02-08T18:39:15.586903400] 	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:65)
+[2024-02-08T18:39:15.586903400] 	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+[2024-02-08T18:39:15.586903400] 	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+[2024-02-08T18:39:15.586903400] 	... 25 more
+[2024-02-08T18:39:15.586903400] 
+[2024-02-08T18:39:15.661920900] 2024-02-08 18:39:15.661 DEBUG testcase.TC_Facebook_registration_001    - 1: openBrowser("")
+[2024-02-08T18:39:15.677958300] 2024-02-08 18:39:15.677 INFO  c.k.k.core.webui.driver.DriverFactory    - Starting 'Chrome' driver
+[2024-02-08T18:39:15.688817300] Feb 08, 2024 6:39:15 PM org.openqa.selenium.remote.DesiredCapabilities chrome
+[2024-02-08T18:39:15.688817300] INFO: Using `new ChromeOptions()` is preferred to `DesiredCapabilities.chrome()`
+[2024-02-08T18:39:15.714171200] 2024-02-08 18:39:15.713 INFO  c.k.k.core.webui.driver.DriverFactory    - Action delay is set to 0 milliseconds
+[2024-02-08T18:39:17.232009800] Starting ChromeDriver 121.0.6167.85 (3f98d690ad7e59242ef110144c757b2ac4eef1a2-refs/branch-heads/6167@{#1539}) on port 24572
+[2024-02-08T18:39:17.232446] Only local connections are allowed.
+[2024-02-08T18:39:17.232446] Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+[2024-02-08T18:39:17.240144800] ChromeDriver was started successfully.
+[2024-02-08T18:39:20.884514900] Feb 08, 2024 6:39:20 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+[2024-02-08T18:39:20.885015] INFO: Detected dialect: W3C
+[2024-02-08T18:39:21.009767800] 2024-02-08 18:39:21.005 INFO  c.k.k.core.webui.driver.DriverFactory    - sessionId = afe193ed71caf356c3aeafc52fe716e2
+[2024-02-08T18:39:21.187376400] 2024-02-08 18:39:21.083 INFO  c.k.k.core.webui.driver.DriverFactory    - browser = Chrome 121.0.0.0
+[2024-02-08T18:39:21.197582] 2024-02-08 18:39:21.084 INFO  c.k.k.core.webui.driver.DriverFactory    - platform = Windows 10
+[2024-02-08T18:39:21.197582] 2024-02-08 18:39:21.085 INFO  c.k.k.core.webui.driver.DriverFactory    - seleniumVersion = 3.141.59
+[2024-02-08T18:39:21.197582] 2024-02-08 18:39:21.087 INFO  c.k.k.core.webui.driver.DriverFactory    - proxyInformation = ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList="", isApplyToDesiredCapabilities=true }
+[2024-02-08T18:39:21.197582] 2024-02-08 18:39:21.131 DEBUG testcase.TC_Facebook_registration_001    - 2: navigateToUrl("https://www.facebook.com/")
+[2024-02-08T18:39:22.925849200] 2024-02-08 18:39:22.923 DEBUG testcase.TC_Facebook_registration_001    - 3: click(findTestObject("Object Repository/TC_Facebook_registration_001_OR/Page_Facebook  log in or sign up/a_Create new account"))
+[2024-02-08T18:39:23.970995800] 2024-02-08 18:39:23.965 DEBUG testcase.TC_Facebook_registration_001    - 4: setText(findTestObject("Object Repository/TC_Facebook_registration_001_OR/Page_Facebook  log in or sign up/input_firstname"), "anil")
+[2024-02-08T18:39:24.985714700] 
+[2024-02-08T18:39:24.985714700] --------------------------------------------------------------------------------
+[2024-02-08T18:39:24.986760800] Test Suites/TC_Facebook_registartion_TS/TC_Facebook_registration_001_TS - Chrome
+[2024-02-08T18:39:24.986760800]  - 20240208_183904.......................................................0/1(0%)
+[2024-02-08T18:39:24.986760800] --------------------------------------------------------------------------------
+[2024-02-08T18:39:24.987353800] 
+[2024-02-08T18:39:25.659531300] 2024-02-08 18:39:25.623 DEBUG testcase.TC_Facebook_registration_001    - 5: setText(findTestObject("Object Repository/TC_Facebook_registration_001_OR/Page_Facebook  log in or sign up/input_lastname"), "chelimilla")
+[2024-02-08T18:39:27.177249100] 2024-02-08 18:39:27.172 DEBUG testcase.TC_Facebook_registration_001    - 6: setText(findTestObject("TC_Facebook_registration_001_OR/Page_Facebook  log in or sign up/input_reg_email__"), "ch.anil9cc@gmail.com")
+[2024-02-08T18:39:28.067804300] 2024-02-08 18:39:28.067 DEBUG testcase.TC_Facebook_registration_001    - 7: setText(findTestObject("Object Repository/TC_Facebook_registration_001_OR/Page_Facebook  log in or sign up/input_reg_email_confirmation__"), "ch.anil9cc@gmail.com")
+[2024-02-08T18:39:28.980634200] 2024-02-08 18:39:28.978 DEBUG testcase.TC_Facebook_registration_001    - 8: setEncryptedText(findTestObject("Object Repository/TC_Facebook_registration_001_OR/Page_Facebook  log in or sign up/input_reg_passwd__"), "qpR5QGbtPO/Q9OPNRZU6Dg==")
+[2024-02-08T18:39:29.720797300] 2024-02-08 18:39:29.720 DEBUG testcase.TC_Facebook_registration_001    - 9: selectOptionByValue(findTestObject("Object Repository/TC_Facebook_registration_001_OR/Page_Facebook  log in or sign up/select_123456789101112131415161718192021222_566da4"), "7", true)
+[2024-02-08T18:39:31.848154500] 2024-02-08 18:39:31.846 DEBUG testcase.TC_Facebook_registration_001    - 10: selectOptionByValue(findTestObject("Object Repository/TC_Facebook_registration_001_OR/Page_Facebook  log in or sign up/select_123456789101112131415161718192021222_566da4"), "16", true)
+[2024-02-08T18:39:33.855714800] 2024-02-08 18:39:33.853 DEBUG testcase.TC_Facebook_registration_001    - 11: selectOptionByValue(findTestObject("Object Repository/TC_Facebook_registration_001_OR/Page_Facebook  log in or sign up/select_JanFebMarAprMayJunJulAugSepOctNovDec"), "5", true)
+[2024-02-08T18:39:35.263426700] 2024-02-08 18:39:35.262 DEBUG testcase.TC_Facebook_registration_001    - 12: selectOptionByValue(findTestObject("Object Repository/TC_Facebook_registration_001_OR/Page_Facebook  log in or sign up/select_202420232022202120202019201820172016_7237a8"), "2001", true)
+[2024-02-08T18:39:38.652780800] 2024-02-08 18:39:38.651 DEBUG testcase.TC_Facebook_registration_001    - 13: click(findTestObject("Object Repository/TC_Facebook_registration_001_OR/Page_Facebook  log in or sign up/label_Male"))
+[2024-02-08T18:39:39.095446600] 2024-02-08 18:39:39.093 DEBUG testcase.TC_Facebook_registration_001    - 14: click(findTestObject("Object Repository/TC_Facebook_registration_001_OR/Page_Facebook  log in or sign up/button_Sign Up"))
+[2024-02-08T18:39:39.553196900] 2024-02-08 18:39:39.550 DEBUG testcase.TC_Facebook_registration_001    - 15: closeBrowser()
+[2024-02-08T18:39:39.994298500] 
+[2024-02-08T18:39:39.994298500] --------------------------------------------------------------------------------
+[2024-02-08T18:39:39.994298500] Test Suites/TC_Facebook_registartion_TS/TC_Facebook_registration_001_TS - Chrome
+[2024-02-08T18:39:39.994298500]  - 20240208_183904.......................................................0/1(0%)
+[2024-02-08T18:39:39.994298500] --------------------------------------------------------------------------------
+[2024-02-08T18:39:39.994298500] 
+[2024-02-08T18:39:40.991571200] 2024-02-08 18:39:40.987 WARN  c.k.k.core.testobject.ObjectRepository   - Test object with id 'Object Repository/TC_logout_test listener_OR/Page_Facebook/span_x4k7w5x x1h91t0o x1h9r5lt x1jfb8zj xv2_c8d3b2' does not exist
+[2024-02-08T18:39:41.029971100] 2024-02-08 18:39:41.028 WARN  c.k.k.core.testobject.ObjectRepository   - Test object with id 'Object Repository/' does not exist
+[2024-02-08T18:39:41.039192200] 2024-02-08 18:39:41.038 WARN  c.k.k.c.w.h.s.WebUIScreenCaptor          - Cannot take screenshot
+[2024-02-08T18:39:41.045914100] 2024-02-08 18:39:41.044 ERROR c.k.k.core.keyword.internal.KeywordMain  - ? Unable to click on object (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to click on object
+[2024-02-08T18:39:41.045914100] 	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+[2024-02-08T18:39:41.045914100] 	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+[2024-02-08T18:39:41.045914100] 	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:74)
+[2024-02-08T18:39:41.046716600] 	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+[2024-02-08T18:39:41.046716600] 	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+[2024-02-08T18:39:41.046716600] 	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:659)
+[2024-02-08T18:39:41.046716600] 	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$0.call(Unknown Source)
+[2024-02-08T18:39:41.046716600] 	at Facebook_logout_TL.sampleAfterTestCase(Facebook_logout_TL.groovy:50)
+[2024-02-08T18:39:41.046716600] 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+[2024-02-08T18:39:41.046716600] 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+[2024-02-08T18:39:41.046716600] 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+[2024-02-08T18:39:41.046716600] 	at com.kms.katalon.core.context.internal.TestHooker.invokeMethod(TestHooker.java:111)
+[2024-02-08T18:39:41.046716600] 	at com.kms.katalon.core.context.internal.TestHooker.lambda$3(TestHooker.java:95)
+[2024-02-08T18:39:41.046716600] 	at com.kms.katalon.core.context.internal.TestHooker.invokeContextMethods(TestHooker.java:94)
+[2024-02-08T18:39:41.046716600] 	at com.kms.katalon.core.context.internal.TestListenerCollector.lambda$3(TestListenerCollector.java:88)
+[2024-02-08T18:39:41.046716600] 	at com.kms.katalon.core.context.internal.TestListenerCollector.handleListenerEvent(TestListenerCollector.java:85)
+[2024-02-08T18:39:41.046716600] 	at com.kms.katalon.core.context.internal.ExecutionEventManager.publicEvent(ExecutionEventManager.java:36)
+[2024-02-08T18:39:41.046716600] 	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:315)
+[2024-02-08T18:39:41.046716600] 	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+[2024-02-08T18:39:41.046716600] 	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+[2024-02-08T18:39:41.046716600] 	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+[2024-02-08T18:39:41.046716600] 	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+[2024-02-08T18:39:41.046716600] 	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+[2024-02-08T18:39:41.046716600] 	at TempTestSuite1707397744223.run(TempTestSuite1707397744223.groovy:36)
+[2024-02-08T18:39:41.047900700] 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+[2024-02-08T18:39:41.047900700] 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+[2024-02-08T18:39:41.047900700] 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+[2024-02-08T18:39:41.047900700] Caused by: java.lang.IllegalArgumentException: Object is null
+[2024-02-08T18:39:41.047900700] 	at com.kms.katalon.core.helper.KeywordHelper.checkTestObjectParameter(KeywordHelper.java:33)
+[2024-02-08T18:39:41.047900700] 	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:62)
+[2024-02-08T18:39:41.047900700] 	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+[2024-02-08T18:39:41.047900700] 	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+[2024-02-08T18:39:41.047900700] 	... 25 more
+[2024-02-08T18:39:41.047900700] )
+[2024-02-08T18:39:41.050476400] 2024-02-08 18:39:41.048 ERROR c.k.k.core.context.internal.TestHooker   - ? com.kms.katalon.core.exception.StepFailedException: Unable to click on object
+[2024-02-08T18:39:41.050476400] 	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+[2024-02-08T18:39:41.050476400] 	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+[2024-02-08T18:39:41.050476400] 	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:74)
+[2024-02-08T18:39:41.050476400] 	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+[2024-02-08T18:39:41.050476400] 	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+[2024-02-08T18:39:41.050476400] 	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:659)
+[2024-02-08T18:39:41.050476400] 	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$0.call(Unknown Source)
+[2024-02-08T18:39:41.050476400] 	at Facebook_logout_TL.sampleAfterTestCase(Facebook_logout_TL.groovy:50)
+[2024-02-08T18:39:41.050476400] 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+[2024-02-08T18:39:41.050476400] 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+[2024-02-08T18:39:41.051741600] 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+[2024-02-08T18:39:41.051741600] 	at com.kms.katalon.core.context.internal.TestHooker.invokeMethod(TestHooker.java:111)
+[2024-02-08T18:39:41.051741600] 	at com.kms.katalon.core.context.internal.TestHooker.lambda$3(TestHooker.java:95)
+[2024-02-08T18:39:41.051741600] 	at com.kms.katalon.core.context.internal.TestHooker.invokeContextMethods(TestHooker.java:94)
+[2024-02-08T18:39:41.051741600] 	at com.kms.katalon.core.context.internal.TestListenerCollector.lambda$3(TestListenerCollector.java:88)
+[2024-02-08T18:39:41.051741600] 	at com.kms.katalon.core.context.internal.TestListenerCollector.handleListenerEvent(TestListenerCollector.java:85)
+[2024-02-08T18:39:41.051741600] 	at com.kms.katalon.core.context.internal.ExecutionEventManager.publicEvent(ExecutionEventManager.java:36)
+[2024-02-08T18:39:41.051741600] 	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:315)
+[2024-02-08T18:39:41.051741600] 	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+[2024-02-08T18:39:41.051741600] 	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+[2024-02-08T18:39:41.051741600] 	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+[2024-02-08T18:39:41.051741600] 	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+[2024-02-08T18:39:41.051741600] 	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+[2024-02-08T18:39:41.051741600] 	at TempTestSuite1707397744223.run(TempTestSuite1707397744223.groovy:36)
+[2024-02-08T18:39:41.051741600] 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+[2024-02-08T18:39:41.051741600] 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+[2024-02-08T18:39:41.051741600] 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+[2024-02-08T18:39:41.051741600] Caused by: java.lang.IllegalArgumentException: Object is null
+[2024-02-08T18:39:41.051741600] 	at com.kms.katalon.core.helper.KeywordHelper.checkTestObjectParameter(KeywordHelper.java:33)
+[2024-02-08T18:39:41.051741600] 	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:62)
+[2024-02-08T18:39:41.051741600] 	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+[2024-02-08T18:39:41.051741600] 	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+[2024-02-08T18:39:41.051741600] 	... 25 more
+[2024-02-08T18:39:41.051741600] 
+[2024-02-08T18:39:41.106804600] 2024-02-08 18:39:41.105 WARN  c.k.k.c.webui.common.WebUiCommonHelper   - [SELF-HEALING] Failed to find element with id 'Object Repository/TC_Facebook_Test Listener_OR/Page_(2) Facebook/span_x4k7w5x x1h91t0o x1h9r5lt x1jfb8zj xv2_c8d3b2'. Try using Self-healing.
+[2024-02-08T18:39:41.123529600] 2024-02-08 18:39:41.122 WARN  c.k.k.c.webui.common.WebUiCommonHelper   - [SELF-HEALING] Session ID is null. Using WebDriver after calling quit()?
+[2024-02-08T18:39:41.123529600] Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+[2024-02-08T18:39:41.123529600] System info: host: 'DESKTOP-FOKPJIU', ip: '192.168.29.213', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.7'
+[2024-02-08T18:39:41.123529600] Driver info: driver.version: RemoteWebDriver
+[2024-02-08T18:39:41.135559500] 2024-02-08 18:39:41.134 WARN  c.k.k.c.webui.common.WebUiCommonHelper   - [SELF-HEALING] Session ID is null. Using WebDriver after calling quit()?
+[2024-02-08T18:39:41.135559500] Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+[2024-02-08T18:39:41.135559500] System info: host: 'DESKTOP-FOKPJIU', ip: '192.168.29.213', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.7'
+[2024-02-08T18:39:41.135559500] Driver info: driver.version: RemoteWebDriver
+[2024-02-08T18:39:41.138555700] 2024-02-08 18:39:41.137 WARN  c.k.k.c.webui.common.WebUiCommonHelper   - [SELF-HEALING] Session ID is null. Using WebDriver after calling quit()?
+[2024-02-08T18:39:41.138555700] Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+[2024-02-08T18:39:41.138555700] System info: host: 'DESKTOP-FOKPJIU', ip: '192.168.29.213', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.7'
+[2024-02-08T18:39:41.138555700] Driver info: driver.version: RemoteWebDriver
+[2024-02-08T18:39:41.144555800] 2024-02-08 18:39:41.143 WARN  c.k.k.c.w.h.s.WebUIScreenCaptor          - Cannot take screenshot
+[2024-02-08T18:39:41.149590200] 2024-02-08 18:39:41.147 ERROR c.k.k.core.keyword.internal.KeywordMain  - ? Unable to click on object 'Object Repository/TC_Facebook_Test Listener_OR/Page_(2) Facebook/span_x4k7w5x x1h91t0o x1h9r5lt x1jfb8zj xv2_c8d3b2' (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/TC_Facebook_Test Listener_OR/Page_(2) Facebook/span_x4k7w5x x1h91t0o x1h9r5lt x1jfb8zj xv2_c8d3b2'
+[2024-02-08T18:39:41.149590200] 	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+[2024-02-08T18:39:41.149590200] 	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+[2024-02-08T18:39:41.149590200] 	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:74)
+[2024-02-08T18:39:41.149590200] 	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+[2024-02-08T18:39:41.149590200] 	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+[2024-02-08T18:39:41.149590200] 	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:659)
+[2024-02-08T18:39:41.149590200] 	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$0.call(Unknown Source)
+[2024-02-08T18:39:41.150089500] 	at Facebook_registration_logout_TL.sampleAfterTestCase(Facebook_registration_logout_TL.groovy:67)
+[2024-02-08T18:39:41.150089500] 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+[2024-02-08T18:39:41.150589600] 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+[2024-02-08T18:39:41.150589600] 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+[2024-02-08T18:39:41.150589600] 	at com.kms.katalon.core.context.internal.TestHooker.invokeMethod(TestHooker.java:111)
+[2024-02-08T18:39:41.150589600] 	at com.kms.katalon.core.context.internal.TestHooker.lambda$3(TestHooker.java:95)
+[2024-02-08T18:39:41.150589600] 	at com.kms.katalon.core.context.internal.TestHooker.invokeContextMethods(TestHooker.java:94)
+[2024-02-08T18:39:41.150589600] 	at com.kms.katalon.core.context.internal.TestListenerCollector.lambda$3(TestListenerCollector.java:88)
+[2024-02-08T18:39:41.150589600] 	at com.kms.katalon.core.context.internal.TestListenerCollector.handleListenerEvent(TestListenerCollector.java:85)
+[2024-02-08T18:39:41.150589600] 	at com.kms.katalon.core.context.internal.ExecutionEventManager.publicEvent(ExecutionEventManager.java:36)
+[2024-02-08T18:39:41.150589600] 	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:315)
+[2024-02-08T18:39:41.150589600] 	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+[2024-02-08T18:39:41.151089300] 	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+[2024-02-08T18:39:41.151089300] 	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+[2024-02-08T18:39:41.151089300] 	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+[2024-02-08T18:39:41.151089300] 	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+[2024-02-08T18:39:41.151089300] 	at TempTestSuite1707397744223.run(TempTestSuite1707397744223.groovy:36)
+[2024-02-08T18:39:41.151089300] 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+[2024-02-08T18:39:41.151089300] 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+[2024-02-08T18:39:41.151089300] 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+[2024-02-08T18:39:41.151089300] Caused by: org.openqa.selenium.NoSuchSessionException: Session ID is null. Using WebDriver after calling quit()?
+[2024-02-08T18:39:41.151089300] Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+[2024-02-08T18:39:41.151089300] System info: host: 'DESKTOP-FOKPJIU', ip: '192.168.29.213', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.7'
+[2024-02-08T18:39:41.151089300] Driver info: driver.version: RemoteWebDriver
+[2024-02-08T18:39:41.151089300] 	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:125)
+[2024-02-08T18:39:41.151089300] 	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+[2024-02-08T18:39:41.151089300] 	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+[2024-02-08T18:39:41.151089300] 	at com.kms.katalon.selenium.driver.CChromeDriver.execute(CChromeDriver.java:19)
+[2024-02-08T18:39:41.151089300] 	at org.openqa.selenium.remote.RemoteWebDriver.findElements(RemoteWebDriver.java:353)
+[2024-02-08T18:39:41.151089300] 	at org.openqa.selenium.remote.RemoteWebDriver.findElementsByXPath(RemoteWebDriver.java:432)
+[2024-02-08T18:39:41.151089300] 	at org.openqa.selenium.By$ByXPath.findElements(By.java:348)
+[2024-02-08T18:39:41.151089300] 	at org.openqa.selenium.remote.RemoteWebDriver.findElements(RemoteWebDriver.java:311)
+[2024-02-08T18:39:41.151089300] 	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findElementByNormalMethods(WebUiCommonHelper.java:1025)
+[2024-02-08T18:39:41.151589500] 	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findElementsBySelectedMethod(WebUiCommonHelper.java:915)
+[2024-02-08T18:39:41.151589500] 	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findElementsBySelectedMethod(WebUiCommonHelper.java:897)
+[2024-02-08T18:39:41.151589500] 	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findElementsBySelectedMethod(WebUiCommonHelper.java:892)
+[2024-02-08T18:39:41.151589500] 	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findElementsByDefault(WebUiCommonHelper.java:888)
+[2024-02-08T18:39:41.151589500] 	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findElementsWithSelfHealing(WebUiCommonHelper.java:734)
+[2024-02-08T18:39:41.151589500] 	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElements(WebUiCommonHelper.java:718)
+[2024-02-08T18:39:41.151589500] 	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1374)
+[2024-02-08T18:39:41.151589500] 	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+[2024-02-08T18:39:41.151589500] 	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:65)
+[2024-02-08T18:39:41.151589500] 	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+[2024-02-08T18:39:41.151589500] 	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+[2024-02-08T18:39:41.151589500] 	... 25 more
+[2024-02-08T18:39:41.151589500] )
+[2024-02-08T18:39:41.155900100] 2024-02-08 18:39:41.153 ERROR c.k.k.core.context.internal.TestHooker   - ? com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/TC_Facebook_Test Listener_OR/Page_(2) Facebook/span_x4k7w5x x1h91t0o x1h9r5lt x1jfb8zj xv2_c8d3b2'
+[2024-02-08T18:39:41.155900100] 	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+[2024-02-08T18:39:41.155900100] 	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+[2024-02-08T18:39:41.156400400] 	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:74)
+[2024-02-08T18:39:41.156400400] 	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+[2024-02-08T18:39:41.156400400] 	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+[2024-02-08T18:39:41.156400400] 	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:659)
+[2024-02-08T18:39:41.156400400] 	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$0.call(Unknown Source)
+[2024-02-08T18:39:41.156400400] 	at Facebook_registration_logout_TL.sampleAfterTestCase(Facebook_registration_logout_TL.groovy:67)
+[2024-02-08T18:39:41.156400400] 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+[2024-02-08T18:39:41.156400400] 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+[2024-02-08T18:39:41.156400400] 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+[2024-02-08T18:39:41.156400400] 	at com.kms.katalon.core.context.internal.TestHooker.invokeMethod(TestHooker.java:111)
+[2024-02-08T18:39:41.156899500] 	at com.kms.katalon.core.context.internal.TestHooker.lambda$3(TestHooker.java:95)
+[2024-02-08T18:39:41.156899500] 	at com.kms.katalon.core.context.internal.TestHooker.invokeContextMethods(TestHooker.java:94)
+[2024-02-08T18:39:41.156899500] 	at com.kms.katalon.core.context.internal.TestListenerCollector.lambda$3(TestListenerCollector.java:88)
+[2024-02-08T18:39:41.156899500] 	at com.kms.katalon.core.context.internal.TestListenerCollector.handleListenerEvent(TestListenerCollector.java:85)
+[2024-02-08T18:39:41.156899500] 	at com.kms.katalon.core.context.internal.ExecutionEventManager.publicEvent(ExecutionEventManager.java:36)
+[2024-02-08T18:39:41.156899500] 	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:315)
+[2024-02-08T18:39:41.156899500] 	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+[2024-02-08T18:39:41.156899500] 	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+[2024-02-08T18:39:41.156899500] 	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+[2024-02-08T18:39:41.156899500] 	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+[2024-02-08T18:39:41.156899500] 	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+[2024-02-08T18:39:41.156899500] 	at TempTestSuite1707397744223.run(TempTestSuite1707397744223.groovy:36)
+[2024-02-08T18:39:41.156899500] 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+[2024-02-08T18:39:41.156899500] 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+[2024-02-08T18:39:41.156899500] 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+[2024-02-08T18:39:41.156899500] Caused by: org.openqa.selenium.NoSuchSessionException: Session ID is null. Using WebDriver after calling quit()?
+[2024-02-08T18:39:41.156899500] Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+[2024-02-08T18:39:41.156899500] System info: host: 'DESKTOP-FOKPJIU', ip: '192.168.29.213', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.7'
+[2024-02-08T18:39:41.156899500] Driver info: driver.version: RemoteWebDriver
+[2024-02-08T18:39:41.156899500] 	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:125)
+[2024-02-08T18:39:41.156899500] 	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+[2024-02-08T18:39:41.156899500] 	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+[2024-02-08T18:39:41.156899500] 	at com.kms.katalon.selenium.driver.CChromeDriver.execute(CChromeDriver.java:19)
+[2024-02-08T18:39:41.156899500] 	at org.openqa.selenium.remote.RemoteWebDriver.findElements(RemoteWebDriver.java:353)
+[2024-02-08T18:39:41.156899500] 	at org.openqa.selenium.remote.RemoteWebDriver.findElementsByXPath(RemoteWebDriver.java:432)
+[2024-02-08T18:39:41.156899500] 	at org.openqa.selenium.By$ByXPath.findElements(By.java:348)
+[2024-02-08T18:39:41.156899500] 	at org.openqa.selenium.remote.RemoteWebDriver.findElements(RemoteWebDriver.java:311)
+[2024-02-08T18:39:41.156899500] 	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findElementByNormalMethods(WebUiCommonHelper.java:1025)
+[2024-02-08T18:39:41.156899500] 	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findElementsBySelectedMethod(WebUiCommonHelper.java:915)
+[2024-02-08T18:39:41.156899500] 	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findElementsBySelectedMethod(WebUiCommonHelper.java:897)
+[2024-02-08T18:39:41.156899500] 	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findElementsBySelectedMethod(WebUiCommonHelper.java:892)
+[2024-02-08T18:39:41.156899500] 	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findElementsByDefault(WebUiCommonHelper.java:888)
+[2024-02-08T18:39:41.156899500] 	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findElementsWithSelfHealing(WebUiCommonHelper.java:734)
+[2024-02-08T18:39:41.156899500] 	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElements(WebUiCommonHelper.java:718)
+[2024-02-08T18:39:41.156899500] 	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1374)
+[2024-02-08T18:39:41.157399500] 	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+[2024-02-08T18:39:41.157399500] 	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:65)
+[2024-02-08T18:39:41.157399500] 	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+[2024-02-08T18:39:41.157399500] 	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+[2024-02-08T18:39:41.157563100] 	... 25 more
+[2024-02-08T18:39:41.157563100] 
+[2024-02-08T18:39:41.162358700] 2024-02-08 18:39:41.161 INFO  c.k.katalon.core.main.TestCaseExecutor   - END Test Cases/Facebook_registration/TC_Facebook_registration_001
+[2024-02-08T18:39:41.799729500] 2024-02-08 18:39:41.798 INFO  com.kms.katalon.core.util.KeywordUtil    - Start generating HTML report folder at: C:\Users\ANILKUMAR\Katalon Studio\Facebook Application Testing\Reports\20240208_183852\TC_Facebook_registartion_TS\TC_Facebook_registration_001_TS\20240208_183904...
+[2024-02-08T18:39:42.010150500] 2024-02-08 18:39:42.009 INFO  com.kms.katalon.core.util.KeywordUtil    - HTML report generated
+[2024-02-08T18:39:42.011922700] 2024-02-08 18:39:42.010 INFO  com.kms.katalon.core.util.KeywordUtil    - Start generating CSV report folder at: C:\Users\ANILKUMAR\Katalon Studio\Facebook Application Testing\Reports\20240208_183852\TC_Facebook_registartion_TS\TC_Facebook_registration_001_TS\20240208_183904...
+[2024-02-08T18:39:42.066511700] 2024-02-08 18:39:42.066 INFO  com.kms.katalon.core.util.KeywordUtil    - CSV report generated
+[2024-02-08T18:39:42.179130600] 2024-02-08 18:39:42.179 INFO  c.k.katalon.core.main.TestSuiteExecutor  - --------------------
+[2024-02-08T18:39:42.179130600] 2024-02-08 18:39:42.179 INFO  c.k.katalon.core.main.TestSuiteExecutor  - END Test Suites/TC_Facebook_registartion_TS/TC_Facebook_registration_001_TS
+[2024-02-08T18:39:42.179130600] 2024-02-08 18:39:42.179 INFO  c.k.katalon.core.main.TestSuiteExecutor  - ====================
+[2024-02-08T18:39:42.248668600] Launcher status after execution process completed: Running
+[2024-02-08T18:39:45.755948900] Start writing execution.uuid file to folder: C:\Users\ANILKUMAR\Katalon Studio\Facebook Application Testing\Reports\20240208_183852\TC_Facebook_registartion_TS\TC_Facebook_registration_001_TS\20240208_183904
+[2024-02-08T18:39:45.758937500] Start generating JUnit report folder at: C:\Users\ANILKUMAR\Katalon Studio\Facebook Application Testing\Reports\20240208_183852\TC_Facebook_registartion_TS\TC_Facebook_registration_001_TS\20240208_183904...
+[2024-02-08T18:39:46.096271400] JUnit report were generated at folder: C:\Users\ANILKUMAR\Katalon Studio\Facebook Application Testing\Reports\20240208_183852\TC_Facebook_registartion_TS\TC_Facebook_registration_001_TS\20240208_183904
+[2024-02-08T18:39:46.119984300] For real-time monitoring and better reporting capabilities please integrate this project with Katalon TestOps (more details at https://docs.katalon.com/katalon-analytics/docs/integration-with-katalon-studio.html#enable-integration)
+[2024-02-08T18:39:46.169501700] Uploading report to Katalon TestOps...
+[2024-02-08T18:39:46.865116900] Start sending test result to Katalon TestOps
+[2024-02-08T18:39:46.865116900] Uploading log files of test suite
+[2024-02-08T18:39:47.946551] Sending file: C:\Users\ANILKUMAR\Katalon Studio\Facebook Application Testing\Reports\20240208_183852\TC_Facebook_registartion_TS\TC_Facebook_registration_001_TS\20240208_183904\20240208_183904.csv
+[2024-02-08T18:39:49.308759300] Sending file: C:\Users\ANILKUMAR\Katalon Studio\Facebook Application Testing\Reports\20240208_183852\TC_Facebook_registartion_TS\TC_Facebook_registration_001_TS\20240208_183904\20240208_183904.html
+[2024-02-08T18:39:52.315473800] Sending file: C:\Users\ANILKUMAR\Katalon Studio\Facebook Application Testing\Reports\20240208_183852\TC_Facebook_registartion_TS\TC_Facebook_registration_001_TS\20240208_183904\broken-test-objects.json
+[2024-02-08T18:39:53.804012800] Sending file: C:\Users\ANILKUMAR\Katalon Studio\Facebook Application Testing\Reports\20240208_183852\TC_Facebook_registartion_TS\TC_Facebook_registration_001_TS\20240208_183904\execution.properties
+[2024-02-08T18:39:54.997358800] 
+[2024-02-08T18:39:54.997358800] --------------------------------------------------------------------------------
+[2024-02-08T18:39:54.997358800] Test Suites/TC_Facebook_registartion_TS/TC_Facebook_registration_001_TS - Chrome
+[2024-02-08T18:39:54.997358800]  - 20240208_183904.....................................................1/1(100%)
+[2024-02-08T18:39:54.997358800] --------------------------------------------------------------------------------
+[2024-02-08T18:39:54.997358800] 
+[2024-02-08T18:40:08.454725200] Sending file: C:\Users\ANILKUMAR\Katalon Studio\Facebook Application Testing\Reports\20240208_183852\TC_Facebook_registartion_TS\TC_Facebook_registration_001_TS\20240208_183904\execution.uuid
+[2024-02-08T18:40:08.744730200] Sending file: C:\Users\ANILKUMAR\Katalon Studio\Facebook Application Testing\Reports\20240208_183852\TC_Facebook_registartion_TS\TC_Facebook_registration_001_TS\20240208_183904\execution0.log
+[2024-02-08T18:40:09.998472300] 
+[2024-02-08T18:40:09.998472300] --------------------------------------------------------------------------------
+[2024-02-08T18:40:09.998472300] Test Suites/TC_Facebook_registartion_TS/TC_Facebook_registration_001_TS - Chrome
+[2024-02-08T18:40:09.998472300]  - 20240208_183904.....................................................1/1(100%)
+[2024-02-08T18:40:09.998472300] --------------------------------------------------------------------------------
+[2024-02-08T18:40:09.998472300] 
+[2024-02-08T18:40:12.812418600] Sending file: C:\Users\ANILKUMAR\Katalon Studio\Facebook Application Testing\Reports\20240208_183852\TC_Facebook_registartion_TS\TC_Facebook_registration_001_TS\20240208_183904\JUnit_Report.xml
+[2024-02-08T18:40:16.305093100] Sending file: C:\Users\ANILKUMAR\Katalon Studio\Facebook Application Testing\Reports\20240208_183852\TC_Facebook_registartion_TS\TC_Facebook_registration_001_TS\20240208_183904\testCaseBinding
+[2024-02-08T18:40:24.619878600] Sending file: C:\Users\ANILKUMAR\Katalon Studio\Facebook Application Testing\Reports\20240208_183852\TC_Facebook_registartion_TS\TC_Facebook_registration_001_TS\20240208_183904\tsc_id.txt
+[2024-02-08T18:40:24.998957800] 
+[2024-02-08T18:40:24.998957800] --------------------------------------------------------------------------------
+[2024-02-08T18:40:24.998957800] Test Suites/TC_Facebook_registartion_TS/TC_Facebook_registration_001_TS - Chrome
+[2024-02-08T18:40:24.998957800]  - 20240208_183904.....................................................1/1(100%)
+[2024-02-08T18:40:24.998957800] --------------------------------------------------------------------------------
+[2024-02-08T18:40:24.998957800] 
+[2024-02-08T18:40:29.985672500] Katalon TestOps: Start uploading report to Katalon TestOps server: https://testops.katalon.io
+[2024-02-08T18:40:31.267312800] Katalon TestOps - Execution URL: https://testops.katalon.io/from-ks/execution-result?teamId=1266885&projectId=1360920&id=24371306
+[2024-02-08T18:40:31.267312800] End sending to Katalon TestOps
+[2024-02-08T18:40:31.267312800] Report has been sent to Katalon TestOps
+[2024-02-08T18:40:40.002385800] 
+[2024-02-08T18:40:40.002385800] --------------------------------------------------------------------------------
+[2024-02-08T18:40:40.003424400] Test Suites/TC_Facebook_registartion_TS/TC_Facebook_registration_001_TS - Chrome
+[2024-02-08T18:40:40.003424400]  - 20240208_183904.....................................................1/1(100%)
+[2024-02-08T18:40:40.003424400] --------------------------------------------------------------------------------
+[2024-02-08T18:40:40.003424400] 
+[2024-02-08T18:40:40.019536] Execution completed. Exit code: 0.
+[2024-02-08T18:40:40.020545800] Start clean up session
+[2024-02-08T18:40:40.022541600] End check license task
+[2024-02-08T18:40:40.023542900] End clean up session
+[2024-02-08T18:40:40.024541500] Start release license task
+[2024-02-08T18:40:41.020549600] License released
+[2024-02-08T18:40:41.026209500] End release license task
+[2024-02-08T18:40:41.032231700] All launchers terminated
+[2024-02-08T18:40:43.159279] Finished executing cmd /c C:\Users\ANILKUMAR\.katalon\9.1.0\Katalon_Studio_Engine_Windows_64-9.1.0\katalonc.exe katalonc -noSplash -runMode=console -projectPath="C:\Users\ANILKUMAR\Katalon Studio\Facebook Application Testing\Facebook Application Testing.prj" -retry=0 -testSuitePath="Test Suites/TC_Facebook_registartion_TS/TC_Facebook_registration_001_TS" -browserType="Chrome" -executionProfile="default" -apiKey="bc73b42f-b38f-438d-9d89-e38491530c80" --config -proxy.auth.option=NO_PROXY -proxy.system.option=NO_PROXY -proxy.system.applyToDesiredCapabilities=true -webui.autoUpdateDrivers=true . Exit code: 0.
+Finished: SUCCESS
